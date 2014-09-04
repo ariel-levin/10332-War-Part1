@@ -1,5 +1,3 @@
-/* Ariel Levin */
-
 package Utility;
 
 import java.util.logging.Filter;

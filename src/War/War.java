@@ -1,5 +1,3 @@
-/* Ariel Levin */
-
 package War;
 
 import java.awt.event.ActionEvent;
@@ -23,7 +21,10 @@ import Destroyers.*;
 import Launcher.*;
 import Utility.*;
 
-
+/** 
+ * @author Ariel Levin
+ * 
+ * */
 public class War extends Thread {
 	
 	private final String FN = "war.xml";	// XML file name

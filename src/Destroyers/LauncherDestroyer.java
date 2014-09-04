@@ -1,5 +1,3 @@
-/* Ariel Levin */
-
 package Destroyers;
 
 import java.io.IOException;
@@ -11,6 +9,10 @@ import Utility.*;
 import War.War;
 
 
+/** 
+ * @author Ariel Levin
+ * 
+ * */
 public class LauncherDestroyer extends Thread {
 
 	private Logger logger = Logger.getLogger("WarLogger");

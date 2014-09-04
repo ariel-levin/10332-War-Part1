@@ -1,8 +1,12 @@
-/* Ariel Levin */
-
 package War;
 
-/** Main program to run the War */
+
+/**
+ * Main program to run the War
+ * 
+ * @author Ariel Levin
+ * 
+ * */
 public class Program {
 
 	public static void main(String[] args) {

@@ -1,9 +1,12 @@
-/* Ariel Levin */
-
 package Destroyers;
 
 
-/** Target class stores the Destroyers Targets with Destroy time */
+/**
+ * Target class stores the Destroyers Targets with Destroy time
+ * 
+ * @author Ariel Levin
+ * 
+ * */
 public class Target {
 
 	/* Comparator used to sort the targets in the Minimum Heap, by Destroy Time */

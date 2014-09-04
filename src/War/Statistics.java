@@ -1,5 +1,3 @@
-/* Ariel Levin */
-
 package War;
 
 import java.util.Collection;
@@ -8,7 +6,12 @@ import java.util.Map;
 import Launcher.Launcher;
 
 
-/** Class used to display War Statistics */
+/**
+ * Class used to display War Statistics
+ * 
+ * @author Ariel Levin
+ * 
+ * */
 public class Statistics {
 
 	/** Display War Statistics

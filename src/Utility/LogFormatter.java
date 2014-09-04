@@ -1,5 +1,3 @@
-/* Ariel Levin */
-
 package Utility;
 
 import War.War;
@@ -8,6 +6,11 @@ import java.text.SimpleDateFormat;
 import java.util.logging.Formatter;
 import java.util.logging.LogRecord;
 
+
+/** 
+ * @author Ariel Levin
+ * 
+ * */
 public class LogFormatter extends Formatter {
 
 	// used to add new line in log files

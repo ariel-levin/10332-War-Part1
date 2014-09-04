@@ -1,5 +1,3 @@
-/* Ariel Levin */
-
 package Utility;
 
 import Destroyers.*;
@@ -17,6 +15,10 @@ import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
 
 
+/** 
+ * @author Ariel Levin
+ * 
+ * */
 public class ReadXML {
 
 	/** Get a XML Document and Returns a Launchers Map from it.

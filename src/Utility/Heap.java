@@ -1,5 +1,3 @@
-/* Ariel Levin */
-
 package Utility;
 
 public class Heap<E> {

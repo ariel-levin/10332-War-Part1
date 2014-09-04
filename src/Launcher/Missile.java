@@ -1,10 +1,12 @@
-/* Ariel Levin */
-
 package Launcher;
 
 import War.War;
 
 
+/** 
+ * @author Ariel Levin
+ * 
+ * */
 public class Missile extends Thread {
 
 	/* Comparator used to sort the missiles in the Minimum Heap, by Launch Time */
