@@ -1,0 +1,29 @@
+05/09/2014 02:36:04 (195) >     Launcher L500 created and can be hidden
+05/09/2014 02:36:15 (206) >     Launcher L500 >> Missile M831 created
+                                >> Destination: ccc , Launch Time: 206 , Estimated Land Time: 266
+05/09/2014 02:36:16 (207) >     Launcher L500 >> Trying to launch Missile M831
+05/09/2014 02:36:16 (207) >     Launcher L500 >> Missile M831 launched!
+05/09/2014 02:36:16 (207) >     Launcher L500 is now not hidden and exposed for attacks 
+                                >> Exposed while Missile M831 On-Air: (60) time units
+05/09/2014 02:36:25 (216) >     Launcher L500 >> Missile M37 created
+                                >> Destination: ddd , Launch Time: 216 , Estimated Land Time: 296
+05/09/2014 02:36:43 (235) >     Launcher L500 >> Missile M831 was Intercepted!
+                                >> Interception time: 235
+05/09/2014 02:36:43 (235) >     Launcher L500 is now hidden and safe
+05/09/2014 02:36:44 (236) >     Launcher L500 >> Trying to launch Missile M37
+05/09/2014 02:36:44 (236) >     Launcher L500 >> Missile M37 launched!
+05/09/2014 02:36:44 (236) >     Launcher L500 is now not hidden and exposed for attacks 
+                                >> Exposed while Missile M37 On-Air: (80) time units
+05/09/2014 02:37:25 (276) >     Launcher L500 >> Missile M37 was Intercepted!
+                                >> Interception time: 276
+05/09/2014 02:37:25 (276) >     Launcher L500 is now hidden and safe
+05/09/2014 02:38:40 (351) >     Launcher L500 >> Missile M737 created
+                                >> Destination: ggg , Launch Time: 351 , Estimated Land Time: 366
+05/09/2014 02:38:41 (352) >     Launcher L500 >> Trying to launch Missile M737
+05/09/2014 02:38:41 (352) >     Launcher L500 >> Missile M737 launched!
+05/09/2014 02:38:41 (352) >     Launcher L500 is now not hidden and exposed for attacks 
+                                >> Exposed while Missile M737 On-Air: (15) time units
+05/09/2014 02:38:54 (365) >     Launcher L500 was destroyed!
+                                >> Destruction time: 365
+05/09/2014 02:38:56 (367) >     Launcher L500 >> Missile M737 Successfully hit ggg!
+                                >> Total damage: 7000

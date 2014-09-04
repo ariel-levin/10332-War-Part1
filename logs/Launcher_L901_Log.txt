@@ -1,3 +1,0 @@
-05/09/2014 01:57:28 (199) >     Launcher L901 created and cannot be hidden
-05/09/2014 01:59:51 (342) >     Launcher L901 was destroyed!
-                                >> Destruction time: 342

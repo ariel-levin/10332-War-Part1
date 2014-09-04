@@ -1,4 +1,20 @@
-05/09/2014 01:51:52 (0) >       IronDome D202 created
-05/09/2014 01:51:52 (0) >       IronDome D202 >> Target: Missile M2 , Interception time: 3
-05/09/2014 01:54:12 (3) >       IronDome D202 >> Trying to intercept Missile M2
-05/09/2014 01:54:12 (3) >       IronDome D202 >> Missile M2 interception failed, Missile may not be On-Air
+05/09/2014 02:32:43 (0) >       IronDome D202 created
+05/09/2014 02:32:43 (0) >       IronDome D202 >> Target: Missile M2 , Interception time: 3
+05/09/2014 02:32:52 (3) >       IronDome D202 >> Trying to intercept Missile M2
+05/09/2014 02:32:52 (3) >       IronDome D202 >> Missile M2 interception failed, Missile may not be On-Air
+05/09/2014 02:33:51 (63) >      IronDome D202 >> Target: Missile M343 , Interception time: 63
+05/09/2014 02:33:52 (64) >      IronDome D202 >> Trying to intercept Missile M343
+                                >> Interception duration time: (5) time units
+05/09/2014 02:33:57 (69) >      IronDome D202 >> Missile M343 was intercepted successfully
+05/09/2014 02:34:04 (76) >      IronDome D202 >> Target: Missile M703 , Interception time: 76
+05/09/2014 02:34:05 (77) >      IronDome D202 >> Trying to intercept Missile M703
+                                >> Interception duration time: (9) time units
+05/09/2014 02:34:14 (86) >      IronDome D202 >> Missile M703 interception failed - Missed Missile
+05/09/2014 02:36:32 (224) >     IronDome D202 >> Target: Missile M831 , Interception time: 224
+05/09/2014 02:36:33 (225) >     IronDome D202 >> Trying to intercept Missile M831
+                                >> Interception duration time: (10) time units
+05/09/2014 02:36:43 (235) >     IronDome D202 >> Missile M831 was intercepted successfully
+05/09/2014 02:37:09 (260) >     IronDome D202 >> Target: Missile M37 , Interception time: 260
+05/09/2014 02:37:10 (261) >     IronDome D202 >> Trying to intercept Missile M37
+                                >> Interception duration time: (5) time units
+05/09/2014 02:37:15 (266) >     IronDome D202 >> Missile M37 interception failed - Missed Missile

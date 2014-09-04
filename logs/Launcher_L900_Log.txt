@@ -1,9 +1,15 @@
-05/09/2014 01:57:23 (194) >     Launcher L900 created and cannot be hidden
-05/09/2014 01:57:54 (225) >     Launcher L900 >> Missile M44 created
-                                >> Destination: a , Launch Time: 225 , Estimated Land Time: 345
-05/09/2014 01:57:55 (226) >     Launcher L900 >> Trying to launch Missile M44
-05/09/2014 01:57:55 (226) >     Launcher L900 >> Missile M44 launched!
-05/09/2014 01:58:21 (252) >     Launcher L900 >> Missile M44 was Intercepted!
-                                >> Interception time: 252
-05/09/2014 02:00:01 (352) >     Launcher L900 was destroyed!
-                                >> Destruction time: 352
+05/09/2014 02:33:04 (15) >      Launcher L900 created and cannot be hidden
+05/09/2014 02:33:44 (56) >      Launcher L900 >> Missile M343 created
+                                >> Destination: yoyo , Launch Time: 56 , Estimated Land Time: 176
+05/09/2014 02:33:45 (57) >      Launcher L900 >> Trying to launch Missile M343
+05/09/2014 02:33:45 (57) >      Launcher L900 >> Missile M343 launched!
+05/09/2014 02:33:57 (69) >      Launcher L900 >> Missile M343 was Intercepted!
+                                >> Interception time: 69
+05/09/2014 02:34:36 (107) >     Launcher L900 >> Missile M632 created
+                                >> Destination: aaa , Launch Time: 107 , Estimated Land Time: 157
+05/09/2014 02:34:37 (108) >     Launcher L900 >> Trying to launch Missile M632
+05/09/2014 02:34:37 (108) >     Launcher L900 >> Missile M632 launched!
+05/09/2014 02:34:51 (123) >     Launcher L900 was destroyed!
+                                >> Destruction time: 123
+05/09/2014 02:35:27 (158) >     Launcher L900 >> Missile M632 Successfully hit aaa!
+                                >> Total damage: 1000
