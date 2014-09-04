@@ -1,0 +1,12 @@
+30/08/2014 18:28:43 (130) >     Launcher L900 created and cannot be hidden
+30/08/2014 18:30:25 (232) >     Launcher L900 >> Missile M962 created
+                                >> Destination: gaza , Launch Time: 232 , Estimated Land Time: 352
+30/08/2014 18:30:25 (232) >     Launcher L900 >> Trying to launch Missile M962
+30/08/2014 18:30:25 (232) >     Launcher L900 >> Missile M962 launched!
+30/08/2014 18:30:42 (249) >     Launcher L900 >> Missile M588 created
+                                >> Destination: gazu , Launch Time: 249 , Estimated Land Time: 549
+30/08/2014 18:30:55 (262) >     Launcher L900 >> Missile M588 was destroyed because of Launcher Destruction
+30/08/2014 18:30:55 (262) >     Launcher L900 was destroyed!
+                                >> Destruction time: 262
+30/08/2014 18:32:25 (352) >     Launcher L900 >> Missile M962 Successfully hit gaza!
+                                >> Total damage: 10000

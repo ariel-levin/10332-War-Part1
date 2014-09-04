@@ -1,0 +1,17 @@
+11/08/2014 19:52:50 (0) >	Launcher L102 created and can be hidden
+11/08/2014 19:52:50 (0) >	Launcher L102 >> Missile M3 created :
+			>> Destination: Ofakim , Launch Time: 4 , Estimated Land Time: 7
+11/08/2014 19:52:50 (0) >	Launcher L102 >> Missile M4 created :
+			>> Destination: Beer-Sheva , Launch Time: 9 , Estimated Land Time: 16
+11/08/2014 19:52:51 (4) >	Launcher L102 >> Trying to launch Missile M3
+11/08/2014 19:52:51 (4) >	Launcher L102 >> Missile M3 launched
+11/08/2014 19:52:51 (4) >	Launcher L102 is now not hidden and exposed for attacks for (5) time units
+11/08/2014 19:52:51 (7) >	Launcher L102 >> Missile M3 Successfully hit Ofakim!
+			>> Total damage: 5000
+11/08/2014 19:52:51 (9) >	Launcher L102 is now hidden and safe
+11/08/2014 19:52:51 (9) >	Launcher L102 >> Missile M4 was destroyed because of Launcher Destruction
+11/08/2014 19:52:51 (9) >	Launcher L102 >> Trying to launch Missile M4
+11/08/2014 19:52:51 (9) >	Launcher L102 was destroyed!
+			>> Destruction time: 9
+11/08/2014 19:52:51 (9) >	Launcher L102 >> Missile M4 launched
+11/08/2014 19:52:51 (9) >	Launcher L102 is now not hidden and exposed for attacks for (5) time units

@@ -1,0 +1,32 @@
+30/08/2014 18:28:48 (135) >     Launcher L901 created and cannot be hidden
+30/08/2014 18:29:24 (171) >     Launcher L901 >> Missile M193 created
+                                >> Destination: a , Launch Time: 171 , Estimated Land Time: 291
+30/08/2014 18:29:25 (172) >     Launcher L901 >> Trying to launch Missile M193
+30/08/2014 18:29:25 (172) >     Launcher L901 >> Missile M193 launched!
+30/08/2014 18:29:40 (187) >     Launcher L901 >> Missile M678 created
+                                >> Destination: b , Launch Time: 187 , Estimated Land Time: 192
+30/08/2014 18:29:55 (202) >     Launcher L901 >> Missile M451 created
+                                >> Destination: gfd , Launch Time: 202 , Estimated Land Time: 205
+30/08/2014 18:30:05 (212) >     Launcher L901 >> Missile M156 created
+                                >> Destination: hi , Launch Time: 212 , Estimated Land Time: 214
+30/08/2014 18:30:16 (223) >     Launcher L901 >> Missile M257 created
+                                >> Destination: asdas , Launch Time: 223 , Estimated Land Time: 243
+30/08/2014 18:31:25 (292) >     Launcher L901 >> Missile M193 Successfully hit a!
+                                >> Total damage: 10
+30/08/2014 18:31:26 (293) >     Launcher L901 >> Trying to launch Missile M678
+30/08/2014 18:31:26 (293) >     Launcher L901 >> Missile M678 launched!
+30/08/2014 18:31:31 (298) >     Launcher L901 >> Missile M678 Successfully hit b!
+                                >> Total damage: 200
+30/08/2014 18:31:32 (299) >     Launcher L901 >> Trying to launch Missile M451
+30/08/2014 18:31:32 (299) >     Launcher L901 >> Missile M451 launched!
+30/08/2014 18:31:35 (302) >     Launcher L901 >> Missile M451 Successfully hit gfd!
+                                >> Total damage: 1
+30/08/2014 18:31:36 (303) >     Launcher L901 >> Trying to launch Missile M156
+30/08/2014 18:31:36 (303) >     Launcher L901 >> Missile M156 launched!
+30/08/2014 18:31:38 (305) >     Launcher L901 >> Missile M156 Missed destination hi!
+30/08/2014 18:31:39 (306) >     Launcher L901 >> Trying to launch Missile M257
+30/08/2014 18:31:39 (306) >     Launcher L901 >> Missile M257 launched!
+30/08/2014 18:31:59 (326) >     Launcher L901 >> Missile M257 Successfully hit asdas!
+                                >> Total damage: 90
+30/08/2014 18:32:03 (330) >     Launcher L901 was destroyed!
+                                >> Destruction time: 330

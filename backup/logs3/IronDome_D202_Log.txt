@@ -1,0 +1,3 @@
+30/08/2014 16:03:32 (0) >	IronDome D202 created
+30/08/2014 16:03:35 (3) >	IronDome D202 >> Trying to intercept Missile M2
+30/08/2014 16:03:35 (3) >	IronDome D202 >> Missile M2 interception failed, Missile may not be On-Air

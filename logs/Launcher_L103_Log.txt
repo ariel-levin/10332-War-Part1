@@ -1,0 +1,18 @@
+30/08/2014 20:27:44 (0) >       Launcher L103 created and can be hidden
+30/08/2014 20:28:26 (43) >      Launcher L103 >> Missile M436 created
+                                >> Destination: gaza , Launch Time: 43 , Estimated Land Time: 103
+30/08/2014 20:28:27 (43) >      Launcher L103 >> Trying to launch Missile M436
+30/08/2014 20:28:27 (43) >      Launcher L103 >> Missile M436 launched!
+30/08/2014 20:28:27 (43) >      Launcher L103 is now not hidden and exposed for attacks 
+                                >> Exposed while Missile M436 On-Air or (5) time units pass
+30/08/2014 20:28:50 (66) >      Launcher L103 >> Missile M436 was Intercepted!
+                                >> Interception time: 66
+30/08/2014 20:28:51 (67) >      Launcher L103 is now hidden and safe
+30/08/2014 20:33:36 (352) >     Launcher L103 >> Missile M244 created
+                                >> Destination: tron , Launch Time: 352 , Estimated Land Time: 382
+30/08/2014 20:33:36 (352) >     Launcher L103 >> Trying to launch Missile M244
+30/08/2014 20:33:36 (352) >     Launcher L103 >> Missile M244 launched!
+30/08/2014 20:33:36 (352) >     Launcher L103 is now not hidden and exposed for attacks 
+                                >> Exposed while Missile M244 On-Air or (5) time units pass
+30/08/2014 20:34:06 (382) >     Launcher L103 >> Missile M244 Missed destination tron!
+30/08/2014 20:34:07 (383) >     Launcher L103 is now hidden and safe

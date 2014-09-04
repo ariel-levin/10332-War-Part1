@@ -1,0 +1,8 @@
+30/08/2014 16:03:32 (0) >	LauncherDestroyer 2 LauncherDestroyer created
+30/08/2014 16:03:41 (9) >	LauncherDestroyer 2 >> Trying to destroy Launcher L102
+30/08/2014 16:03:41 (9) >	LauncherDestroyer 2 >> Launcher L102 was destroyed successfully
+30/08/2014 16:03:44 (12) >	LauncherDestroyer 2 >> Trying to destroy Launcher L102
+30/08/2014 16:03:44 (12) >	LauncherDestroyer 2 >> Launcher L102 destruction failed - hidden or already destroyed
+30/08/2014 16:07:22 (230) >	LauncherDestroyer 2 >> Trying to destroy Launcher L800
+				>> Destruction duration time: (3) time units
+30/08/2014 16:07:25 (233) >	LauncherDestroyer 2 >> Launcher L800 was destroyed successfully

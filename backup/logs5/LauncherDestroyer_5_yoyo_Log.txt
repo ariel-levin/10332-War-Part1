@@ -1,0 +1,7 @@
+30/08/2014 20:27:48 (4) >       LauncherDestroyer 5 LauncherDestroyer created
+30/08/2014 20:27:56 (12) >      LauncherDestroyer 5 >> Trying to destroy Launcher L104
+                                >> Destruction duration time: (10) time units
+30/08/2014 20:28:06 (22) >      LauncherDestroyer 5 >> Launcher L104 was destroyed successfully
+30/08/2014 20:31:32 (228) >     LauncherDestroyer 5 >> Trying to destroy Launcher L903
+                                >> Destruction duration time: (6) time units
+30/08/2014 20:31:38 (234) >     LauncherDestroyer 5 >> Launcher L903 was destroyed successfully

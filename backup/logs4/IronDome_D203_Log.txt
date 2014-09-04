@@ -1,0 +1,8 @@
+30/08/2014 18:26:33 (0) >       IronDome D203 created
+30/08/2014 18:26:54 (21) >      IronDome D203 >> Trying to intercept Missile M7
+30/08/2014 18:26:54 (21) >      IronDome D203 >> Missile M7 interception failed, Missile may not be On-Air
+30/08/2014 18:27:03 (30) >      IronDome D203 >> Trying to intercept Missile M4
+30/08/2014 18:27:03 (30) >      IronDome D203 >> Missile M4 interception failed, Missile may not be On-Air
+30/08/2014 18:28:13 (100) >     IronDome D203 >> Trying to intercept Missile M880
+                                >> Interception duration time: (6) time units
+30/08/2014 18:28:19 (106) >     IronDome D203 >> Missile M880 was intercepted successfully

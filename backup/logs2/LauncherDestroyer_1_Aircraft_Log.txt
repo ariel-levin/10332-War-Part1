@@ -1,0 +1,3 @@
+11/08/2014 19:52:50 (0) >	LauncherDestroyer 1 Aircraft created
+11/08/2014 19:52:51 (4) >	LauncherDestroyer 1 >> Trying to destroy Launcher L101
+11/08/2014 19:52:51 (4) >	LauncherDestroyer 1 >> Launcher L101 was destroyed successfully

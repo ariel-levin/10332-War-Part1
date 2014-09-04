@@ -1,0 +1,9 @@
+30/08/2014 20:33:10 (326) >     Launcher L904 created and can be hidden
+30/08/2014 20:33:22 (337) >     Launcher L904 >> Missile M216 created
+                                >> Destination: gaza , Launch Time: 337 , Estimated Land Time: 343
+30/08/2014 20:33:22 (338) >     Launcher L904 >> Trying to launch Missile M216
+30/08/2014 20:33:22 (338) >     Launcher L904 >> Missile M216 launched!
+30/08/2014 20:33:22 (338) >     Launcher L904 is now not hidden and exposed for attacks 
+                                >> Exposed while Missile M216 On-Air or (5) time units pass
+30/08/2014 20:33:28 (344) >     Launcher L904 >> Missile M216 Missed destination gaza!
+30/08/2014 20:33:29 (345) >     Launcher L904 is now hidden and safe

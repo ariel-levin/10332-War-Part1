@@ -1,0 +1,37 @@
+30/08/2014 16:03:39 (8) >	Launcher L103 created and cannot be hidden
+30/08/2014 16:04:02 (30) >	Launcher L103 >> Missile M865 created
+				>> Destination: gaza , Launch Time: 30 , Estimated Land Time: 35
+30/08/2014 16:04:02 (31) >	Launcher L103 >> Trying to launch Missile M865
+30/08/2014 16:04:02 (31) >	Launcher L103 >> Missile M865 launched!
+30/08/2014 16:04:07 (36) >	Launcher L103 >> Missile M865 Successfully hit gaza!
+				>> Total damage: 4000
+30/08/2014 16:04:38 (66) >	Launcher L103 >> Missile M712 created
+				>> Destination: gaza2 , Launch Time: 66 , Estimated Land Time: 126
+30/08/2014 16:04:38 (67) >	Launcher L103 >> Trying to launch Missile M712
+30/08/2014 16:04:38 (67) >	Launcher L103 >> Missile M712 launched!
+30/08/2014 16:04:53 (81) >	Launcher L103 >> Missile M641 created
+				>> Destination: gaza3 , Launch Time: 81 , Estimated Land Time: 86
+30/08/2014 16:05:23 (111) >	Launcher L103 >> Missile M712 was Intercepted!
+				>> Interception time: 111
+30/08/2014 16:05:24 (112) >	Launcher L103 >> Trying to launch Missile M641
+30/08/2014 16:05:24 (112) >	Launcher L103 >> Missile M641 launched!
+30/08/2014 16:05:29 (117) >	Launcher L103 >> Missile M641 Successfully hit gaza3!
+				>> Total damage: 2000
+30/08/2014 16:06:04 (152) >	Launcher L103 >> Missile M341 created
+				>> Destination: a , Launch Time: 152 , Estimated Land Time: 212
+30/08/2014 16:06:04 (152) >	Launcher L103 >> Trying to launch Missile M341
+30/08/2014 16:06:04 (152) >	Launcher L103 >> Missile M341 launched!
+30/08/2014 16:06:24 (172) >	Launcher L103 >> Missile M755 created
+				>> Destination: c , Launch Time: 172 , Estimated Land Time: 212
+30/08/2014 16:06:35 (183) >	Launcher L103 >> Missile M270 created
+				>> Destination: d , Launch Time: 183 , Estimated Land Time: 188
+30/08/2014 16:07:04 (212) >	Launcher L103 >> Missile M341 Successfully hit a!
+				>> Total damage: 10
+30/08/2014 16:07:05 (213) >	Launcher L103 >> Trying to launch Missile M755
+30/08/2014 16:07:05 (213) >	Launcher L103 >> Missile M755 launched!
+30/08/2014 16:07:45 (253) >	Launcher L103 >> Missile M755 Successfully hit c!
+				>> Total damage: 30
+30/08/2014 16:07:46 (254) >	Launcher L103 >> Trying to launch Missile M270
+30/08/2014 16:07:46 (254) >	Launcher L103 >> Missile M270 launched!
+30/08/2014 16:07:51 (259) >	Launcher L103 >> Missile M270 Successfully hit d!
+				>> Total damage: 20

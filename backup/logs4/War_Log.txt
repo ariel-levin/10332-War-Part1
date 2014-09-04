@@ -1,0 +1,202 @@
+30/08/2014 18:26:33 (0) >       Launcher L102 created and can be hidden
+30/08/2014 18:26:33 (0) >       LauncherDestroyer 4 LauncherDestroyer created
+30/08/2014 18:26:33 (0) >       LauncherDestroyer 2 LauncherDestroyer created
+30/08/2014 18:26:33 (0) >       LauncherDestroyer 3 LauncherDestroyer created
+30/08/2014 18:26:33 (0) >       LauncherDestroyer 1 LauncherDestroyer created
+30/08/2014 18:26:33 (0) >       IronDome D202 created
+30/08/2014 18:26:33 (0) >       IronDome D203 created
+30/08/2014 18:26:33 (0) >       IronDome D101 created
+30/08/2014 18:26:33 (0) >       IronDome D201 created
+30/08/2014 18:26:33 (0) >       Launcher L103 created and can be hidden
+30/08/2014 18:26:33 (0) >       Launcher L104 created and can be hidden
+30/08/2014 18:26:33 (0) >       Launcher L101 created and cannot be hidden
+30/08/2014 18:26:33 (0) >       Launcher L102 >> Missile M3 created
+                                >> Destination: Ofakim , Launch Time: 4 , Estimated Land Time: 7
+30/08/2014 18:26:33 (0) >       Launcher L104 >> Missile M5 created
+                                >> Destination: gaza , Launch Time: 20 , Estimated Land Time: 27
+30/08/2014 18:26:33 (0) >       Launcher L101 >> Missile M1 created
+                                >> Destination: Sderot , Launch Time: 2 , Estimated Land Time: 14
+30/08/2014 18:26:33 (0) >       Launcher L102 >> Missile M4 created
+                                >> Destination: Beer-Sheva , Launch Time: 9 , Estimated Land Time: 16
+30/08/2014 18:26:33 (0) >       Launcher L101 >> Missile M2 created
+                                >> Destination: Beer-Sheva , Launch Time: 5 , Estimated Land Time: 12
+30/08/2014 18:26:33 (0) >       Launcher L102 >> Missile M7 created
+                                >> Destination: gaza , Launch Time: 15 , Estimated Land Time: 20
+30/08/2014 18:26:35 (2) >       Launcher L101 >> Trying to launch Missile M1
+30/08/2014 18:26:35 (2) >       Launcher L101 >> Missile M1 launched!
+30/08/2014 18:26:35 (2) >       IronDome D201 >> Trying to intercept Missile M4
+30/08/2014 18:26:35 (2) >       IronDome D201 >> Missile M4 interception failed, Missile may not be On-Air
+30/08/2014 18:26:36 (3) >       IronDome D202 >> Trying to intercept Missile M2
+30/08/2014 18:26:36 (3) >       IronDome D202 >> Missile M2 interception failed, Missile may not be On-Air
+30/08/2014 18:26:36 (3) >       LauncherDestroyer 5 LauncherDestroyer created
+30/08/2014 18:26:37 (4) >       Launcher L102 >> Trying to launch Missile M3
+30/08/2014 18:26:37 (4) >       LauncherDestroyer 1 >> Trying to destroy Launcher L101
+30/08/2014 18:26:37 (4) >       Launcher L102 >> Missile M3 launched!
+30/08/2014 18:26:37 (4) >       Launcher L101 >> Missile M2 was destroyed because of Launcher Destruction
+30/08/2014 18:26:37 (4) >       Launcher L102 is now not hidden and exposed for attacks 
+                                >> Exposed while Missile M3 On-Air or (5) time units pass
+30/08/2014 18:26:37 (4) >       Launcher L101 was destroyed!
+                                >> Destruction time: 4
+30/08/2014 18:26:37 (4) >       LauncherDestroyer 1 >> Launcher L101 was destroyed successfully
+30/08/2014 18:26:37 (4) >       IronDome D201 >> Trying to intercept Missile M1
+30/08/2014 18:26:37 (4) >       IronDome D201 >> Missile M1 was intercepted successfully
+30/08/2014 18:26:37 (4) >       Launcher L101 >> Missile M1 was Intercepted!
+                                >> Interception time: 4
+30/08/2014 18:26:40 (7) >       Launcher L102 >> Missile M3 Successfully hit Ofakim!
+                                >> Total damage: 5000
+30/08/2014 18:26:40 (7) >       IronDome D201 >> Trying to intercept Missile M3
+30/08/2014 18:26:40 (7) >       IronDome D201 >> Missile M3 interception failed, Missile may not be On-Air
+30/08/2014 18:26:42 (9) >       LauncherDestroyer 2 >> Trying to destroy Launcher L102
+30/08/2014 18:26:42 (9) >       Launcher L102 is now hidden and safe
+30/08/2014 18:26:42 (9) >       Launcher L102 >> Trying to launch Missile M4
+30/08/2014 18:26:42 (9) >       LauncherDestroyer 2 >> Launcher L102 destruction failed - hidden or already destroyed
+30/08/2014 18:26:42 (9) >       Launcher L102 >> Missile M4 launched!
+30/08/2014 18:26:42 (9) >       Launcher L102 is now not hidden and exposed for attacks 
+                                >> Exposed while Missile M4 On-Air or (5) time units pass
+30/08/2014 18:26:43 (10) >      LauncherDestroyer 5 >> Trying to destroy Launcher L104
+                                >> Destruction duration time: (3) time units
+30/08/2014 18:26:45 (12) >      LauncherDestroyer 2 >> Trying to destroy Launcher L102
+30/08/2014 18:26:45 (12) >      Launcher L102 >> Missile M7 was destroyed because of Launcher Destruction
+30/08/2014 18:26:45 (12) >      Launcher L102 was destroyed!
+                                >> Destruction time: 12
+30/08/2014 18:26:45 (12) >      LauncherDestroyer 2 >> Launcher L102 was destroyed successfully
+30/08/2014 18:26:46 (13) >      LauncherDestroyer 5 >> Launcher L104 destruction failed - Missed Launcher
+30/08/2014 18:26:48 (15) >      LauncherDestroyer 4 >> Trying to destroy Launcher L101
+30/08/2014 18:26:48 (15) >      LauncherDestroyer 4 >> Launcher L101 destruction failed - hidden or already destroyed
+30/08/2014 18:26:49 (16) >      Launcher L102 >> Missile M4 Successfully hit Beer-Sheva!
+                                >> Total damage: 1000
+30/08/2014 18:26:53 (20) >      Launcher L104 >> Trying to launch Missile M5
+30/08/2014 18:26:53 (20) >      Launcher L104 >> Missile M5 launched!
+30/08/2014 18:26:53 (20) >      Launcher L104 is now not hidden and exposed for attacks 
+                                >> Exposed while Missile M5 On-Air or (5) time units pass
+30/08/2014 18:26:54 (21) >      IronDome D203 >> Trying to intercept Missile M7
+30/08/2014 18:26:54 (21) >      IronDome D203 >> Missile M7 interception failed, Missile may not be On-Air
+30/08/2014 18:27:00 (27) >      Launcher L104 >> Missile M5 Successfully hit gaza!
+                                >> Total damage: 1500
+30/08/2014 18:27:01 (28) >      Launcher L104 is now hidden and safe
+30/08/2014 18:27:01 (29) >      Launcher L104 >> Missile M841 created
+                                >> Destination: mordor , Launch Time: 29 , Estimated Land Time: 69
+30/08/2014 18:27:02 (29) >      Launcher L104 >> Trying to launch Missile M841
+30/08/2014 18:27:02 (29) >      Launcher L104 >> Missile M841 launched!
+30/08/2014 18:27:02 (29) >      Launcher L104 is now not hidden and exposed for attacks 
+                                >> Exposed while Missile M841 On-Air or (5) time units pass
+30/08/2014 18:27:03 (30) >      IronDome D203 >> Trying to intercept Missile M4
+30/08/2014 18:27:03 (30) >      IronDome D203 >> Missile M4 interception failed, Missile may not be On-Air
+30/08/2014 18:27:08 (35) >      LauncherDestroyer 3 >> Trying to destroy Launcher L104
+                                >> Destruction duration time: (4) time units
+30/08/2014 18:27:12 (39) >      IronDome D800 created
+30/08/2014 18:27:12 (39) >      LauncherDestroyer 3 >> Launcher L104 destruction failed - Missed Launcher
+30/08/2014 18:27:42 (69) >      Launcher L104 >> Missile M841 Successfully hit mordor!
+                                >> Total damage: 3000
+30/08/2014 18:27:43 (70) >      Launcher L104 is now hidden and safe
+30/08/2014 18:28:00 (88) >      Launcher L103 >> Missile M880 created
+                                >> Destination: gaza , Launch Time: 88 , Estimated Land Time: 148
+30/08/2014 18:28:01 (88) >      Launcher L103 >> Trying to launch Missile M880
+30/08/2014 18:28:01 (88) >      Launcher L103 >> Missile M880 launched!
+30/08/2014 18:28:01 (88) >      Launcher L103 is now not hidden and exposed for attacks 
+                                >> Exposed while Missile M880 On-Air or (5) time units pass
+30/08/2014 18:28:13 (100) >     IronDome D203 >> Trying to intercept Missile M880
+                                >> Interception duration time: (6) time units
+30/08/2014 18:28:19 (106) >     IronDome D203 >> Missile M880 was intercepted successfully
+30/08/2014 18:28:19 (106) >     Launcher L103 >> Missile M880 was Intercepted!
+                                >> Interception time: 106
+30/08/2014 18:28:20 (107) >     Launcher L103 is now hidden and safe
+30/08/2014 18:28:25 (113) >     Launcher L105 created and can be hidden
+30/08/2014 18:28:43 (130) >     Launcher L900 created and cannot be hidden
+30/08/2014 18:28:48 (135) >     Launcher L901 created and cannot be hidden
+30/08/2014 18:29:00 (148) >     Launcher L903 created and cannot be hidden
+30/08/2014 18:29:24 (171) >     Launcher L901 >> Missile M193 created
+                                >> Destination: a , Launch Time: 171 , Estimated Land Time: 291
+30/08/2014 18:29:25 (172) >     Launcher L901 >> Trying to launch Missile M193
+30/08/2014 18:29:25 (172) >     Launcher L901 >> Missile M193 launched!
+30/08/2014 18:29:40 (187) >     Launcher L901 >> Missile M678 created
+                                >> Destination: b , Launch Time: 187 , Estimated Land Time: 192
+30/08/2014 18:29:55 (202) >     Launcher L901 >> Missile M451 created
+                                >> Destination: gfd , Launch Time: 202 , Estimated Land Time: 205
+30/08/2014 18:30:05 (212) >     Launcher L901 >> Missile M156 created
+                                >> Destination: hi , Launch Time: 212 , Estimated Land Time: 214
+30/08/2014 18:30:16 (223) >     Launcher L901 >> Missile M257 created
+                                >> Destination: asdas , Launch Time: 223 , Estimated Land Time: 243
+30/08/2014 18:30:25 (232) >     Launcher L900 >> Missile M962 created
+                                >> Destination: gaza , Launch Time: 232 , Estimated Land Time: 352
+30/08/2014 18:30:25 (232) >     Launcher L900 >> Trying to launch Missile M962
+30/08/2014 18:30:25 (232) >     Launcher L900 >> Missile M962 launched!
+30/08/2014 18:30:42 (249) >     Launcher L900 >> Missile M588 created
+                                >> Destination: gazu , Launch Time: 249 , Estimated Land Time: 549
+30/08/2014 18:30:52 (259) >     LauncherDestroyer 5 >> Trying to destroy Launcher L900
+                                >> Destruction duration time: (3) time units
+30/08/2014 18:30:55 (262) >     Launcher L900 >> Missile M588 was destroyed because of Launcher Destruction
+30/08/2014 18:30:55 (262) >     Launcher L900 was destroyed!
+                                >> Destruction time: 262
+30/08/2014 18:30:55 (262) >     LauncherDestroyer 5 >> Launcher L900 was destroyed successfully
+30/08/2014 18:30:57 (264) >     LauncherDestroyer 5 >> Trying to destroy Launcher L103
+                                >> Destruction duration time: (7) time units
+30/08/2014 18:31:04 (271) >     LauncherDestroyer 5 >> Launcher L103 destruction failed - hidden or already destroyed
+30/08/2014 18:31:05 (272) >     LauncherDestroyer 5 >> Trying to destroy Launcher L104
+                                >> Destruction duration time: (9) time units
+30/08/2014 18:31:14 (281) >     LauncherDestroyer 5 >> Launcher L104 destruction failed - hidden or already destroyed
+30/08/2014 18:31:14 (281) >     Launcher L903 >> Missile M955 created
+                                >> Destination: loli , Launch Time: 281 , Estimated Land Time: 288
+30/08/2014 18:31:14 (282) >     Launcher L903 >> Trying to launch Missile M955
+30/08/2014 18:31:14 (282) >     Launcher L903 >> Missile M955 launched!
+30/08/2014 18:31:21 (289) >     Launcher L903 >> Missile M955 Missed destination loli!
+30/08/2014 18:31:25 (292) >     Launcher L901 >> Missile M193 Successfully hit a!
+                                >> Total damage: 10
+30/08/2014 18:31:26 (293) >     Launcher L901 >> Trying to launch Missile M678
+30/08/2014 18:31:26 (293) >     Launcher L901 >> Missile M678 launched!
+30/08/2014 18:31:31 (298) >     Launcher L901 >> Missile M678 Successfully hit b!
+                                >> Total damage: 200
+30/08/2014 18:31:32 (299) >     Launcher L901 >> Trying to launch Missile M451
+30/08/2014 18:31:32 (299) >     Launcher L901 >> Missile M451 launched!
+30/08/2014 18:31:35 (302) >     Launcher L901 >> Missile M451 Successfully hit gfd!
+                                >> Total damage: 1
+30/08/2014 18:31:36 (303) >     Launcher L901 >> Trying to launch Missile M156
+30/08/2014 18:31:36 (303) >     Launcher L901 >> Missile M156 launched!
+30/08/2014 18:31:38 (305) >     Launcher L901 >> Missile M156 Missed destination hi!
+30/08/2014 18:31:39 (306) >     Launcher L901 >> Trying to launch Missile M257
+30/08/2014 18:31:39 (306) >     Launcher L901 >> Missile M257 launched!
+30/08/2014 18:31:59 (326) >     Launcher L901 >> Missile M257 Successfully hit asdas!
+                                >> Total damage: 90
+30/08/2014 18:31:59 (326) >     LauncherDestroyer 5 >> Trying to destroy Launcher L901
+                                >> Destruction duration time: (4) time units
+30/08/2014 18:32:03 (330) >     Launcher L901 was destroyed!
+                                >> Destruction time: 330
+30/08/2014 18:32:03 (330) >     LauncherDestroyer 5 >> Launcher L901 was destroyed successfully
+30/08/2014 18:32:04 (331) >     LauncherDestroyer 5 >> Trying to destroy Launcher L903
+                                >> Destruction duration time: (8) time units
+30/08/2014 18:32:12 (339) >     Launcher L903 was destroyed!
+                                >> Destruction time: 339
+30/08/2014 18:32:12 (339) >     LauncherDestroyer 5 >> Launcher L903 was destroyed successfully
+30/08/2014 18:32:25 (352) >     Launcher L900 >> Missile M962 Successfully hit gaza!
+                                >> Total damage: 10000
+30/08/2014 18:32:39 (366) >     Launcher L105 >> Missile M224 created
+                                >> Destination: gaza , Launch Time: 366 , Estimated Land Time: 386
+30/08/2014 18:32:40 (366) >     Launcher L105 >> Trying to launch Missile M224
+30/08/2014 18:32:40 (366) >     Launcher L105 >> Missile M224 launched!
+30/08/2014 18:32:40 (366) >     Launcher L105 is now not hidden and exposed for attacks 
+                                >> Exposed while Missile M224 On-Air or (5) time units pass
+30/08/2014 18:32:44 (371) >     LauncherDestroyer 4 >> Trying to destroy Launcher L105
+                                >> Destruction duration time: (4) time units
+30/08/2014 18:32:48 (375) >     Launcher L105 was destroyed!
+                                >> Destruction time: 375
+30/08/2014 18:32:48 (375) >     LauncherDestroyer 4 >> Launcher L105 was destroyed successfully
+30/08/2014 18:33:00 (386) >     Launcher L105 >> Missile M224 Successfully hit gaza!
+                                >> Total damage: 70
+30/08/2014 18:33:06 (393) >     Launcher L103 >> Missile M996 created
+                                >> Destination: utern , Launch Time: 393 , Estimated Land Time: 399
+30/08/2014 18:33:07 (394) >     Launcher L103 >> Trying to launch Missile M996
+30/08/2014 18:33:07 (394) >     Launcher L103 >> Missile M996 launched!
+30/08/2014 18:33:07 (394) >     Launcher L103 is now not hidden and exposed for attacks 
+                                >> Exposed while Missile M996 On-Air or (5) time units pass
+30/08/2014 18:33:13 (400) >     Launcher L103 >> Missile M996 Successfully hit utern!
+                                >> Total damage: 600
+30/08/2014 18:33:14 (401) >     Launcher L103 is now hidden and safe
+30/08/2014 18:33:24 (411) >     Launcher L104 >> Missile M307 created
+                                >> Destination: left , Launch Time: 411 , Estimated Land Time: 416
+30/08/2014 18:33:25 (412) >     Launcher L104 >> Trying to launch Missile M307
+30/08/2014 18:33:25 (412) >     Launcher L104 >> Missile M307 launched!
+30/08/2014 18:33:25 (412) >     Launcher L104 is now not hidden and exposed for attacks 
+                                >> Exposed while Missile M307 On-Air or (5) time units pass
+30/08/2014 18:33:30 (417) >     Launcher L104 >> Missile M307 Successfully hit left!
+                                >> Total damage: 8000
+30/08/2014 18:33:31 (418) >     Launcher L104 is now hidden and safe

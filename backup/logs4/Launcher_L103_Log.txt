@@ -1,0 +1,19 @@
+30/08/2014 18:26:33 (0) >       Launcher L103 created and can be hidden
+30/08/2014 18:28:00 (88) >      Launcher L103 >> Missile M880 created
+                                >> Destination: gaza , Launch Time: 88 , Estimated Land Time: 148
+30/08/2014 18:28:01 (88) >      Launcher L103 >> Trying to launch Missile M880
+30/08/2014 18:28:01 (88) >      Launcher L103 >> Missile M880 launched!
+30/08/2014 18:28:01 (88) >      Launcher L103 is now not hidden and exposed for attacks 
+                                >> Exposed while Missile M880 On-Air or (5) time units pass
+30/08/2014 18:28:19 (106) >     Launcher L103 >> Missile M880 was Intercepted!
+                                >> Interception time: 106
+30/08/2014 18:28:20 (107) >     Launcher L103 is now hidden and safe
+30/08/2014 18:33:06 (393) >     Launcher L103 >> Missile M996 created
+                                >> Destination: utern , Launch Time: 393 , Estimated Land Time: 399
+30/08/2014 18:33:07 (394) >     Launcher L103 >> Trying to launch Missile M996
+30/08/2014 18:33:07 (394) >     Launcher L103 >> Missile M996 launched!
+30/08/2014 18:33:07 (394) >     Launcher L103 is now not hidden and exposed for attacks 
+                                >> Exposed while Missile M996 On-Air or (5) time units pass
+30/08/2014 18:33:13 (400) >     Launcher L103 >> Missile M996 Successfully hit utern!
+                                >> Total damage: 600
+30/08/2014 18:33:14 (401) >     Launcher L103 is now hidden and safe

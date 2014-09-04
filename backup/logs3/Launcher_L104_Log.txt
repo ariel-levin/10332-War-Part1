@@ -1,0 +1,28 @@
+30/08/2014 16:03:43 (12) >	Launcher L104 created and can be hidden
+30/08/2014 16:06:15 (163) >	Launcher L104 >> Missile M938 created
+				>> Destination: b , Launch Time: 163 , Estimated Land Time: 233
+30/08/2014 16:06:15 (163) >	Launcher L104 >> Trying to launch Missile M938
+30/08/2014 16:06:15 (163) >	Launcher L104 >> Missile M938 launched!
+30/08/2014 16:06:15 (163) >	Launcher L104 is now not hidden and exposed for attacks 
+				>> Exposed while Missile M938 On-Air or (5) time units pass
+30/08/2014 16:06:45 (193) >	Launcher L104 >> Missile M4 created
+				>> Destination: e , Launch Time: 193 , Estimated Land Time: 198
+30/08/2014 16:06:56 (204) >	Launcher L104 >> Missile M780 created
+				>> Destination: f , Launch Time: 204 , Estimated Land Time: 210
+30/08/2014 16:07:25 (233) >	Launcher L104 >> Missile M938 Successfully hit b!
+				>> Total damage: 20
+30/08/2014 16:07:26 (234) >	Launcher L104 is now hidden and safe
+30/08/2014 16:07:26 (234) >	Launcher L104 >> Trying to launch Missile M4
+30/08/2014 16:07:26 (234) >	Launcher L104 >> Missile M4 launched!
+30/08/2014 16:07:26 (234) >	Launcher L104 is now not hidden and exposed for attacks 
+				>> Exposed while Missile M4 On-Air or (5) time units pass
+30/08/2014 16:07:31 (239) >	Launcher L104 >> Missile M4 Successfully hit e!
+				>> Total damage: 50
+30/08/2014 16:07:32 (240) >	Launcher L104 is now hidden and safe
+30/08/2014 16:07:32 (240) >	Launcher L104 >> Trying to launch Missile M780
+30/08/2014 16:07:32 (240) >	Launcher L104 >> Missile M780 launched!
+30/08/2014 16:07:32 (240) >	Launcher L104 is now not hidden and exposed for attacks 
+				>> Exposed while Missile M780 On-Air or (5) time units pass
+30/08/2014 16:07:38 (246) >	Launcher L104 >> Missile M780 Successfully hit f!
+				>> Total damage: 60
+30/08/2014 16:07:39 (247) >	Launcher L104 is now hidden and safe
