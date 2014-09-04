@@ -1,5 +1,9 @@
-05/09/2014 00:20:26 (0) >       LauncherDestroyer 3 LauncherDestroyer created
-05/09/2014 00:23:20 (116) >     LauncherDestroyer 3 >> Target: Launcher L104 , Destroy time: 116
-05/09/2014 00:23:20 (116) >     LauncherDestroyer 3 >> Trying to destroy Launcher L104
+05/09/2014 01:52:00 (0) >       LauncherDestroyer 3 LauncherDestroyer created
+05/09/2014 01:54:42 (33) >      LauncherDestroyer 3 >> Target: Launcher L104 , Destroy time: 33
+05/09/2014 01:54:42 (33) >      LauncherDestroyer 3 >> Trying to destroy Launcher L104
+                                >> Destruction duration time: (4) time units
+05/09/2014 01:54:46 (37) >      LauncherDestroyer 3 >> Launcher L104 was destroyed successfully
+05/09/2014 02:00:26 (377) >     LauncherDestroyer 3 >> Target: Launcher L103 , Destroy time: 377
+05/09/2014 02:00:26 (377) >     LauncherDestroyer 3 >> Trying to destroy Launcher L103
                                 >> Destruction duration time: (10) time units
-05/09/2014 00:23:30 (126) >     LauncherDestroyer 3 >> Launcher L104 was destroyed successfully
+05/09/2014 02:00:36 (387) >     LauncherDestroyer 3 >> Launcher L103 destruction failed - Missed Launcher

@@ -98,9 +98,8 @@ public class Launcher extends Thread {
 				}
 				
 				if (m != null) {	// if missile was found on the Heap's head
-					int nextLaunch = m.getLaunchTime();
 					
-					if (war.getTime() >= nextLaunch) {
+					if ( war.getTime() >= m.getLaunchTime() ) {
 						logger.log(Level.INFO, "Launcher " + this.id + " >> Trying to launch Missile " + m.getID(),this);
 
 						synchronized (this) {

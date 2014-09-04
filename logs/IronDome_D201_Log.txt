@@ -1,10 +1,18 @@
-05/09/2014 00:20:20 (0) >       IronDome D201 created
-05/09/2014 00:20:20 (0) >       IronDome D201 >> Target: Missile M1 , Interception time: 4
-05/09/2014 00:20:20 (0) >       IronDome D201 >> Target: Missile M3 , Interception time: 7
-05/09/2014 00:20:20 (0) >       IronDome D201 >> Target: Missile M4 , Interception time: 2
-05/09/2014 00:21:26 (2) >       IronDome D201 >> Trying to intercept Missile M4
-05/09/2014 00:21:26 (2) >       IronDome D201 >> Missile M4 interception failed, Missile may not be On-Air
-05/09/2014 00:21:28 (4) >       IronDome D201 >> Trying to intercept Missile M1
-05/09/2014 00:21:28 (4) >       IronDome D201 >> Missile M1 was intercepted successfully
-05/09/2014 00:21:31 (7) >       IronDome D201 >> Trying to intercept Missile M3
-05/09/2014 00:21:31 (7) >       IronDome D201 >> Missile M3 interception failed, Missile may not be On-Air
+05/09/2014 01:51:52 (0) >       IronDome D201 created
+05/09/2014 01:51:52 (0) >       IronDome D201 >> Target: Missile M1 , Interception time: 4
+05/09/2014 01:51:52 (0) >       IronDome D201 >> Target: Missile M3 , Interception time: 7
+05/09/2014 01:51:52 (0) >       IronDome D201 >> Target: Missile M4 , Interception time: 2
+05/09/2014 01:54:11 (2) >       IronDome D201 >> Trying to intercept Missile M4
+05/09/2014 01:54:11 (2) >       IronDome D201 >> Missile M4 interception failed, Missile may not be On-Air
+05/09/2014 01:54:13 (4) >       IronDome D201 >> Trying to intercept Missile M1
+05/09/2014 01:54:13 (4) >       IronDome D201 >> Missile M1 was intercepted successfully
+05/09/2014 01:54:16 (7) >       IronDome D201 >> Trying to intercept Missile M3
+05/09/2014 01:54:16 (7) >       IronDome D201 >> Missile M3 interception failed, Missile may not be On-Air
+05/09/2014 01:55:34 (85) >      IronDome D201 >> Target: Missile M954 , Interception time: 85
+05/09/2014 01:55:35 (86) >      IronDome D201 >> Trying to intercept Missile M954
+                                >> Interception duration time: (3) time units
+05/09/2014 01:55:38 (89) >      IronDome D201 >> Missile M954 was intercepted successfully
+05/09/2014 01:58:32 (263) >     IronDome D201 >> Target: Missile M328 , Interception time: 263
+05/09/2014 01:58:33 (264) >     IronDome D201 >> Trying to intercept Missile M328
+                                >> Interception duration time: (5) time units
+05/09/2014 01:58:38 (269) >     IronDome D201 >> Missile M328 interception failed - Missile may not be On-Air

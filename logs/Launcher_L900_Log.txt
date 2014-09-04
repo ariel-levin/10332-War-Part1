@@ -1,0 +1,9 @@
+05/09/2014 01:57:23 (194) >     Launcher L900 created and cannot be hidden
+05/09/2014 01:57:54 (225) >     Launcher L900 >> Missile M44 created
+                                >> Destination: a , Launch Time: 225 , Estimated Land Time: 345
+05/09/2014 01:57:55 (226) >     Launcher L900 >> Trying to launch Missile M44
+05/09/2014 01:57:55 (226) >     Launcher L900 >> Missile M44 launched!
+05/09/2014 01:58:21 (252) >     Launcher L900 >> Missile M44 was Intercepted!
+                                >> Interception time: 252
+05/09/2014 02:00:01 (352) >     Launcher L900 was destroyed!
+                                >> Destruction time: 352

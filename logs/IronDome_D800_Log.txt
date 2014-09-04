@@ -1,1 +1,5 @@
-05/09/2014 00:23:25 (121) >     IronDome D800 created
+05/09/2014 01:54:54 (45) >      IronDome D800 created
+05/09/2014 01:58:15 (246) >     IronDome D800 >> Target: Missile M44 , Interception time: 246
+05/09/2014 01:58:16 (247) >     IronDome D800 >> Trying to intercept Missile M44
+                                >> Interception duration time: (5) time units
+05/09/2014 01:58:21 (252) >     IronDome D800 >> Missile M44 was intercepted successfully

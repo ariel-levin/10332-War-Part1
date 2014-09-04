@@ -1,19 +1,11 @@
-05/09/2014 00:20:51 (0) >       Launcher L104 created and can be hidden
-05/09/2014 00:21:01 (0) >       Launcher L104 >> Missile M5 created
-                                >> Destination: gaza , Launch Time: 20 , Estimated Land Time: 27
-05/09/2014 00:21:44 (20) >      Launcher L104 >> Trying to launch Missile M5
-05/09/2014 00:21:44 (20) >      Launcher L104 >> Missile M5 launched!
-05/09/2014 00:21:44 (20) >      Launcher L104 is now not hidden and exposed for attacks 
-                                >> Exposed while Missile M5 On-Air: (7) time units
-05/09/2014 00:21:51 (27) >      Launcher L104 >> Missile M5 Successfully hit gaza!
-                                >> Total damage: 1500
-05/09/2014 00:21:51 (27) >      Launcher L104 is now hidden and safe
-05/09/2014 00:23:17 (113) >     Launcher L104 >> Missile M578 created
-                                >> Destination: mordor , Launch Time: 113 , Estimated Land Time: 153
-05/09/2014 00:23:18 (114) >     Launcher L104 >> Trying to launch Missile M578
-05/09/2014 00:23:18 (114) >     Launcher L104 >> Missile M578 launched!
-05/09/2014 00:23:18 (114) >     Launcher L104 is now not hidden and exposed for attacks 
-                                >> Exposed while Missile M578 On-Air: (40) time units
-05/09/2014 00:23:30 (126) >     Launcher L104 was destroyed!
-                                >> Destruction time: 126
-05/09/2014 00:23:58 (154) >     Launcher L104 >> Missile M578 Missed destination mordor!
+05/09/2014 01:52:27 (0) >       Launcher L104 created and can be hidden
+05/09/2014 01:54:36 (27) >      Launcher L104 >> Missile M664 created
+                                >> Destination: mordor , Launch Time: 27 , Estimated Land Time: 67
+05/09/2014 01:54:37 (28) >      Launcher L104 >> Trying to launch Missile M664
+05/09/2014 01:54:37 (28) >      Launcher L104 >> Missile M664 launched!
+05/09/2014 01:54:37 (28) >      Launcher L104 is now not hidden and exposed for attacks 
+                                >> Exposed while Missile M664 On-Air: (40) time units
+05/09/2014 01:54:46 (37) >      Launcher L104 was destroyed!
+                                >> Destruction time: 37
+05/09/2014 01:55:17 (68) >      Launcher L104 >> Missile M664 Successfully hit mordor!
+                                >> Total damage: 3000

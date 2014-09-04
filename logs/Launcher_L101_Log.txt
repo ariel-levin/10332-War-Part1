@@ -1,12 +1,12 @@
-05/09/2014 00:20:20 (0) >       Launcher L101 created and cannot be hidden
-05/09/2014 00:20:20 (0) >       Launcher L101 >> Missile M1 created
+05/09/2014 01:51:51 (0) >       Launcher L101 created and cannot be hidden
+05/09/2014 01:51:51 (0) >       Launcher L101 >> Missile M1 created
                                 >> Destination: Sderot , Launch Time: 2 , Estimated Land Time: 14
-05/09/2014 00:20:20 (0) >       Launcher L101 >> Missile M2 created
+05/09/2014 01:51:51 (0) >       Launcher L101 >> Missile M2 created
                                 >> Destination: Beer-Sheva , Launch Time: 5 , Estimated Land Time: 12
-05/09/2014 00:21:26 (2) >       Launcher L101 >> Trying to launch Missile M1
-05/09/2014 00:21:26 (2) >       Launcher L101 >> Missile M1 launched!
-05/09/2014 00:21:28 (4) >       Launcher L101 >> Missile M2 was destroyed because of Launcher Destruction
-05/09/2014 00:21:28 (4) >       Launcher L101 was destroyed!
+05/09/2014 01:54:11 (2) >       Launcher L101 >> Trying to launch Missile M1
+05/09/2014 01:54:11 (2) >       Launcher L101 >> Missile M1 launched!
+05/09/2014 01:54:13 (4) >       Launcher L101 >> Missile M2 was destroyed because of Launcher Destruction
+05/09/2014 01:54:13 (4) >       Launcher L101 was destroyed!
                                 >> Destruction time: 4
-05/09/2014 00:21:28 (4) >       Launcher L101 >> Missile M1 was Intercepted!
+05/09/2014 01:54:13 (4) >       Launcher L101 >> Missile M1 was Intercepted!
                                 >> Interception time: 4

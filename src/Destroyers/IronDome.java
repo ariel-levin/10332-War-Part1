@@ -22,7 +22,6 @@ public class IronDome extends Thread {
 	private War war;	// war that belongs to
 	// War is stored in order to gain access to War Time and if War is still Alive
 	
-	private int nextInterception;
 	private boolean alive = false;
 	
 	private FileHandler fh = null;
@@ -83,10 +82,10 @@ public class IronDome extends Thread {
 					}
 				}
 
-				if (m != null) {		// if missile was found on the Heap's head
-					nextInterception = t.getDestroyTime();
+				// if missile was found on the Heap's head
+				if ( t != null && m != null ) {
 
-					if ( war.getTime() >= nextInterception ) {
+					if ( war.getTime() >= t.getDestroyTime() ) {
 
 						synchronized (this) {
 
@@ -97,7 +96,6 @@ public class IronDome extends Thread {
 							
 							targetMissiles.remove();
 						}
-
 					}
 				}
 					

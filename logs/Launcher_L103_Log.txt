@@ -1,10 +1,10 @@
-05/09/2014 00:20:46 (0) >       Launcher L103 created and can be hidden
-05/09/2014 00:23:51 (147) >     Launcher L103 >> Missile M282 created
-                                >> Destination: gaza , Launch Time: 147 , Estimated Land Time: 207
-05/09/2014 00:23:52 (148) >     Launcher L103 >> Trying to launch Missile M282
-05/09/2014 00:23:52 (148) >     Launcher L103 >> Missile M282 launched!
-05/09/2014 00:23:52 (148) >     Launcher L103 is now not hidden and exposed for attacks 
-                                >> Exposed while Missile M282 On-Air: (60) time units
-05/09/2014 00:24:05 (161) >     Launcher L103 >> Missile M282 was Intercepted!
-                                >> Interception time: 161
-05/09/2014 00:24:05 (161) >     Launcher L103 is now hidden and safe
+05/09/2014 01:52:19 (0) >       Launcher L103 created and can be hidden
+05/09/2014 01:55:15 (66) >      Launcher L103 >> Missile M954 created
+                                >> Destination: gaza , Launch Time: 66 , Estimated Land Time: 126
+05/09/2014 01:55:16 (67) >      Launcher L103 >> Trying to launch Missile M954
+05/09/2014 01:55:16 (67) >      Launcher L103 >> Missile M954 launched!
+05/09/2014 01:55:16 (67) >      Launcher L103 is now not hidden and exposed for attacks 
+                                >> Exposed while Missile M954 On-Air: (60) time units
+05/09/2014 01:55:38 (89) >      Launcher L103 >> Missile M954 was Intercepted!
+                                >> Interception time: 89
+05/09/2014 01:55:38 (89) >      Launcher L103 is now hidden and safe

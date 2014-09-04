@@ -1,5 +1,49 @@
-05/09/2014 00:21:30 (6) >       LauncherDestroyer 5 LauncherDestroyer created
-05/09/2014 00:21:34 (11) >      LauncherDestroyer 5 >> Target: Launcher L104 , Destroy time: 11
-05/09/2014 00:21:34 (11) >      LauncherDestroyer 5 >> Trying to destroy Launcher L104
+05/09/2014 01:54:12 (3) >       LauncherDestroyer 5 LauncherDestroyer created
+05/09/2014 01:54:17 (8) >       LauncherDestroyer 5 >> Target: Launcher L104 , Destroy time: 8
+05/09/2014 01:54:17 (8) >       LauncherDestroyer 5 >> Trying to destroy Launcher L104
+                                >> Destruction duration time: (9) time units
+05/09/2014 01:54:26 (17) >      LauncherDestroyer 5 >> Launcher L104 destruction failed - hidden or already destroyed
+05/09/2014 01:58:55 (286) >     LauncherDestroyer 5 >> Target: Launcher L200 , Destroy time: 286
+05/09/2014 01:58:55 (286) >     LauncherDestroyer 5 >> Trying to destroy Launcher L200
+                                >> Destruction duration time: (10) time units
+05/09/2014 01:59:05 (296) >     LauncherDestroyer 5 >> Launcher L200 destruction failed - Missed Launcher
+05/09/2014 01:59:05 (296) >     LauncherDestroyer 5 >> Target: Launcher L200 , Destroy time: 288
+05/09/2014 01:59:06 (297) >     LauncherDestroyer 5 >> Trying to destroy Launcher L200
+                                >> Destruction duration time: (9) time units
+05/09/2014 01:59:15 (305) >     LauncherDestroyer 5 >> Launcher L200 destruction failed - Missed Launcher
+05/09/2014 01:59:28 (319) >     LauncherDestroyer 5 >> Target: Launcher L200 , Destroy time: 319
+05/09/2014 01:59:28 (319) >     LauncherDestroyer 5 >> Trying to destroy Launcher L200
+                                >> Destruction duration time: (10) time units
+05/09/2014 01:59:38 (329) >     LauncherDestroyer 5 >> Launcher L200 destruction failed - Missed Launcher
+05/09/2014 01:59:38 (329) >     LauncherDestroyer 5 >> Target: Launcher L901 , Destroy time: 326
+05/09/2014 01:59:39 (330) >     LauncherDestroyer 5 >> Trying to destroy Launcher L901
+                                >> Destruction duration time: (7) time units
+05/09/2014 01:59:46 (337) >     LauncherDestroyer 5 >> Launcher L901 destruction failed - Missed Launcher
+05/09/2014 01:59:46 (337) >     LauncherDestroyer 5 >> Target: Launcher L901 , Destroy time: 336
+05/09/2014 01:59:47 (338) >     LauncherDestroyer 5 >> Trying to destroy Launcher L901
+                                >> Destruction duration time: (4) time units
+05/09/2014 01:59:51 (342) >     LauncherDestroyer 5 >> Launcher L901 was destroyed successfully
+05/09/2014 01:59:51 (342) >     LauncherDestroyer 5 >> Target: Launcher L901 , Destroy time: 341
+05/09/2014 01:59:52 (343) >     LauncherDestroyer 5 >> Trying to destroy Launcher L901
+                                >> Destruction duration time: (4) time units
+05/09/2014 01:59:56 (347) >     LauncherDestroyer 5 >> Launcher L901 destruction failed - Missed Launcher
+05/09/2014 01:59:58 (349) >     LauncherDestroyer 5 >> Target: Launcher L900 , Destroy time: 349
+05/09/2014 01:59:58 (349) >     LauncherDestroyer 5 >> Trying to destroy Launcher L900
+                                >> Destruction duration time: (3) time units
+05/09/2014 02:00:01 (352) >     LauncherDestroyer 5 >> Launcher L900 was destroyed successfully
+05/09/2014 02:00:03 (353) >     LauncherDestroyer 5 >> Target: Launcher L200 , Destroy time: 353
+05/09/2014 02:00:03 (353) >     LauncherDestroyer 5 >> Trying to destroy Launcher L200
+                                >> Destruction duration time: (6) time units
+05/09/2014 02:00:09 (359) >     LauncherDestroyer 5 >> Launcher L200 destruction failed - Missed Launcher
+05/09/2014 02:00:09 (359) >     LauncherDestroyer 5 >> Target: Launcher L200 , Destroy time: 357
+05/09/2014 02:00:10 (360) >     LauncherDestroyer 5 >> Trying to destroy Launcher L200
+                                >> Destruction duration time: (6) time units
+05/09/2014 02:00:16 (366) >     LauncherDestroyer 5 >> Launcher L200 destruction failed - hidden or already destroyed
+05/09/2014 02:00:16 (366) >     LauncherDestroyer 5 >> Target: Launcher L200 , Destroy time: 362
+05/09/2014 02:00:17 (367) >     LauncherDestroyer 5 >> Trying to destroy Launcher L200
                                 >> Destruction duration time: (5) time units
-05/09/2014 00:21:39 (15) >      LauncherDestroyer 5 >> Launcher L104 destruction failed - hidden or already destroyed
+05/09/2014 02:00:22 (372) >     LauncherDestroyer 5 >> Launcher L200 destruction failed - hidden or already destroyed
+05/09/2014 02:00:22 (372) >     LauncherDestroyer 5 >> Target: Launcher L106 , Destroy time: 371
+05/09/2014 02:00:23 (373) >     LauncherDestroyer 5 >> Trying to destroy Launcher L106
+                                >> Destruction duration time: (9) time units
+05/09/2014 02:00:32 (382) >     LauncherDestroyer 5 >> Launcher L106 destruction failed - hidden or already destroyed

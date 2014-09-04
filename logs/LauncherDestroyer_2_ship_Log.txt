@@ -1,7 +1,11 @@
-05/09/2014 00:20:20 (0) >       LauncherDestroyer 2 LauncherDestroyer created
-05/09/2014 00:20:20 (0) >       LauncherDestroyer 2 >> Target: Launcher L102 , Destroy time: 8
-05/09/2014 00:20:20 (0) >       LauncherDestroyer 2 >> Target: Launcher L102 , Destroy time: 12
-05/09/2014 00:21:32 (8) >       LauncherDestroyer 2 >> Trying to destroy Launcher L102
-05/09/2014 00:21:32 (8) >       LauncherDestroyer 2 >> Launcher L102 destruction failed - hidden or already destroyed
-05/09/2014 00:21:36 (12) >      LauncherDestroyer 2 >> Trying to destroy Launcher L102
-05/09/2014 00:21:36 (12) >      LauncherDestroyer 2 >> Launcher L102 was destroyed successfully
+05/09/2014 01:51:52 (0) >       LauncherDestroyer 2 LauncherDestroyer created
+05/09/2014 01:51:52 (0) >       LauncherDestroyer 2 >> Target: Launcher L102 , Destroy time: 8
+05/09/2014 01:51:52 (0) >       LauncherDestroyer 2 >> Target: Launcher L102 , Destroy time: 12
+05/09/2014 01:54:17 (8) >       LauncherDestroyer 2 >> Trying to destroy Launcher L102
+05/09/2014 01:54:17 (8) >       LauncherDestroyer 2 >> Launcher L102 destruction failed - hidden or already destroyed
+05/09/2014 01:54:21 (12) >      LauncherDestroyer 2 >> Trying to destroy Launcher L102
+05/09/2014 01:54:21 (12) >      LauncherDestroyer 2 >> Launcher L102 was destroyed successfully
+05/09/2014 02:00:30 (380) >     LauncherDestroyer 2 >> Target: Launcher L103 , Destroy time: 380
+05/09/2014 02:00:30 (380) >     LauncherDestroyer 2 >> Trying to destroy Launcher L103
+                                >> Destruction duration time: (5) time units
+05/09/2014 02:00:35 (385) >     LauncherDestroyer 2 >> Launcher L103 destruction failed - hidden or already destroyed

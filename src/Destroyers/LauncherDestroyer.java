@@ -25,8 +25,8 @@ public class LauncherDestroyer extends Thread {
 	private War war;	// war that belongs to
 	// War is stored in order to gain access to War Time and if War is still Alive
 	
-	private int nextDestroy;
 	private boolean alive = false;
+	private String ldstring;	// "LauncherDestroyer <id> <type>"
 	
 	private FileHandler fh = null;
 	
@@ -37,10 +37,10 @@ public class LauncherDestroyer extends Thread {
 		this.type = type;
 		this.war = war;
 		targetLaunchers = new Heap<Target>(Target.targetComparator);
+		ldstring = "LauncherDestroyer " + this.id + " " + this.type;
 		
 		setHandler();
-		logger.log(	Level.INFO, "LauncherDestroyer " + this.id + " " +
-					this.getClass().getSimpleName() + " created",this);
+		logger.log(	Level.INFO, ldstring + " created",this);
 		
 		// if the war hasn't started yet, increases the Pre-War thread count
 		if (!war.alive())
@@ -51,7 +51,7 @@ public class LauncherDestroyer extends Thread {
 	private void setHandler() {
 		try {
 			fh = new FileHandler(	"logs/LauncherDestroyer_" + this.id + "_" +
-									type +"_Log.txt", false	);
+									type + "_Log.txt", false	);
 		} catch (SecurityException e) {
 			e.printStackTrace();
 		} catch (IOException e) {
@@ -75,13 +75,7 @@ public class LauncherDestroyer extends Thread {
 			alive = true;
 			
 			while (alive) {
-				
-				if (targetLaunchers.getSize() <= 0) {
-					synchronized (this) {
-						wait();
-					}
-				}
-				
+
 				Target t = null;
 				Launcher l = null;
 				
@@ -89,11 +83,16 @@ public class LauncherDestroyer extends Thread {
 					t = targetLaunchers.getHead();
 					l = (Launcher)(t.getTarget());
 				}
+				else {
+					synchronized (this) {
+						wait();
+					}
+				}
 				
-				if (l != null) {		// if launcher was found on the Heap's head
-					nextDestroy = t.getDestroyTime();
+				// if launcher was found on the Heap's head
+				if ( t != null && l != null ) {
 
-					if ( war.getTime() >= nextDestroy ) {
+					if ( war.getTime() >= t.getDestroyTime() ) {
 
 						synchronized (this) {
 							
@@ -135,8 +134,7 @@ public class LauncherDestroyer extends Thread {
 	/** Destroy the input Launcher normally (immediately).
 	 * Used when the destruction is set in Pre-War Setup */
 	private void destroyLauncherNormally(Launcher l) {
-		logger.log(	Level.INFO, "LauncherDestroyer " + this.id +
-					" >> Trying to destroy Launcher " + l.getID(), this	);
+		logger.log(	Level.INFO, ldstring + " >> Trying to destroy Launcher " + l.getID(), this);
 
 		boolean succeed = false;
 
@@ -145,11 +143,11 @@ public class LauncherDestroyer extends Thread {
 		}
 
 		if (succeed)
-			logger.log(	Level.INFO, "LauncherDestroyer " + this.id + " >> Launcher " +
-						l.getID() + " was destroyed successfully",this	);
+			logger.log(	Level.INFO, ldstring + " >> Launcher " + l.getID() +
+						" was destroyed successfully", this);
 		else
-			logger.log(	Level.INFO, "LauncherDestroyer " + this.id + " >> Launcher " +
-						l.getID() + " destruction failed - hidden or already destroyed", this);
+			logger.log(	Level.INFO, ldstring + " >> Launcher " + l.getID() +
+						" destruction failed - hidden or already destroyed", this);
 	}
 	
 	/** Destroy the input Launcher with action delay (destruction duration) and success chance.
@@ -159,9 +157,9 @@ public class LauncherDestroyer extends Thread {
 		// random number between 3 and 10, for destruction duration
 		int randDuration = 3 + (int)(Math.random()*8);
 
-		logger.log(	Level.INFO, "LauncherDestroyer " + this.id +
-					" >> Trying to destroy Launcher " + l.getID() + LogFormatter.newLine +
-					"Destruction duration time: (" + randDuration + ") time units", this);
+		logger.log(	Level.INFO, ldstring + " >> Trying to destroy Launcher " + l.getID() +
+					LogFormatter.newLine + "Destruction duration time: (" + randDuration +
+					") time units", this);
 
 		try {
 			synchronized (this) {
@@ -176,8 +174,8 @@ public class LauncherDestroyer extends Thread {
 		
 		// 1-7: Success , 8-10: Miss
 		if (randSuccess >= 8 && randSuccess <= 10) {
-			logger.log(	Level.INFO, "LauncherDestroyer " + this.id + " >> Launcher " +
-						l.getID() + " destruction failed - Missed Launcher", this);
+			logger.log(	Level.INFO, ldstring + " >> Launcher " + l.getID() +
+						" destruction failed - Missed Launcher", this);
 			return;
 		}
 		
@@ -188,19 +186,19 @@ public class LauncherDestroyer extends Thread {
 		}
 
 		if (succeed)
-			logger.log(	Level.INFO, "LauncherDestroyer " + this.id + " >> Launcher " +
-						l.getID() + " was destroyed successfully", this);
+			logger.log(	Level.INFO, ldstring + " >> Launcher " + l.getID() +
+						" was destroyed successfully", this);
 		else
-			logger.log(	Level.INFO, "LauncherDestroyer " + this.id + " >> Launcher " +
-						l.getID() + " destruction failed - hidden or already destroyed", this);
+			logger.log(	Level.INFO, ldstring + " >> Launcher " + l.getID() +
+						" destruction failed - hidden or already destroyed", this);
 	}
 	
 	/** Add the input Target to the Launcher Destroyer's Target Heap */
 	public synchronized void addTarget(Target t) {
 		
 		Launcher l = (Launcher)t.getTarget();
-		logger.log(	Level.INFO, "LauncherDestroyer " + this.id + " >> Target: Launcher " +
-					l.getID() + " , Destroy time: " + t.getDestroyTime() , this );
+		logger.log(	Level.INFO, ldstring + " >> Target: Launcher " + l.getID() +
+					" , Destroy time: " + t.getDestroyTime() , this );
 		
 		targetLaunchers.add(t);
 		

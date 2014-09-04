@@ -1,1 +1,11 @@
-05/09/2014 00:24:08 (164) >     Launcher L105 created and can be hidden
+05/09/2014 01:53:28 (0) >       Launcher L105 created and can be hidden
+05/09/2014 01:53:37 (0) >       Launcher L105 >> Missile M5 created
+                                >> Destination: gaza , Launch Time: 20 , Estimated Land Time: 27
+05/09/2014 01:54:29 (20) >      Launcher L105 >> Trying to launch Missile M5
+05/09/2014 01:54:29 (20) >      Launcher L105 >> Missile M5 launched!
+05/09/2014 01:54:29 (20) >      Launcher L105 is now not hidden and exposed for attacks 
+                                >> Exposed while Missile M5 On-Air: (7) time units
+05/09/2014 01:54:31 (22) >      Launcher L105 was destroyed!
+                                >> Destruction time: 22
+05/09/2014 01:54:36 (27) >      Launcher L105 >> Missile M5 Successfully hit gaza!
+                                >> Total damage: 1500

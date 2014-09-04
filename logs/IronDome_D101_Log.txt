@@ -1,1 +1,5 @@
-05/09/2014 00:21:04 (0) >       IronDome D101 created
+05/09/2014 01:53:46 (0) >       IronDome D101 created
+05/09/2014 01:58:24 (255) >     IronDome D101 >> Target: Missile M328 , Interception time: 255
+05/09/2014 01:58:25 (256) >     IronDome D101 >> Trying to intercept Missile M328
+                                >> Interception duration time: (8) time units
+05/09/2014 01:58:33 (264) >     IronDome D101 >> Missile M328 was intercepted successfully

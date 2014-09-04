@@ -1,0 +1,3 @@
+05/09/2014 01:57:35 (206) >     Launcher L903 created and cannot be hidden
+05/09/2014 01:59:27 (318) >     Launcher L903 was destroyed!
+                                >> Destruction time: 318

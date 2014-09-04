@@ -1,0 +1,10 @@
+05/09/2014 01:57:43 (213) >     Launcher L200 created and can be hidden
+05/09/2014 01:58:07 (237) >     Launcher L200 >> Missile M328 created
+                                >> Destination: yoyo , Launch Time: 237 , Estimated Land Time: 287
+05/09/2014 01:58:08 (238) >     Launcher L200 >> Trying to launch Missile M328
+05/09/2014 01:58:08 (238) >     Launcher L200 >> Missile M328 launched!
+05/09/2014 01:58:08 (238) >     Launcher L200 is now not hidden and exposed for attacks 
+                                >> Exposed while Missile M328 On-Air: (50) time units
+05/09/2014 01:58:33 (264) >     Launcher L200 >> Missile M328 was Intercepted!
+                                >> Interception time: 264
+05/09/2014 01:58:33 (264) >     Launcher L200 is now hidden and safe
