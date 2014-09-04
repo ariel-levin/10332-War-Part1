@@ -25,7 +25,7 @@ public class Launcher extends Thread {
 	
 	// if the launcher canBeHidden, it will be exposed after launching a missile, while it on-air
 	private boolean isHidden;
-	private boolean alive;
+	private boolean alive = false;
 	private boolean waitingForMissiles = false;		// if heap is empty and the launcher waiting for missiles
 
 	private int missileLaunchCount = 0;
@@ -185,14 +185,14 @@ public class Launcher extends Thread {
 	/** Add the input Missile to the Launcher's Missile Heap */
 	public synchronized void addMissile(Missile m) {
 		
-		// logging the missile creation if launcher is already/still alive
-		if (!launcherDestroyed) {
-			logger.log(	Level.INFO, "Launcher " + this.id + " >> Missile " + m.getID() +
-						" created" + LogFormatter.newLine + "Destination: " + m.getDestination() +
-						" , Launch Time: " + m.getLaunchTime()  + " , Estimated Land Time: " +
-						(m.getLaunchTime()+m.getFlyTime()), this );
-		}
+		if (launcherDestroyed)
+			return;
 		
+		logger.log(	Level.INFO, "Launcher " + this.id + " >> Missile " + m.getID() +
+					" created" + LogFormatter.newLine + "Destination: " + m.getDestination() +
+					" , Launch Time: " + m.getLaunchTime()  + " , Estimated Land Time: " +
+					(m.getLaunchTime()+m.getFlyTime()), this );
+	
 		missiles.add(m);
 		
 		// notify in case was on wait because of empty heap

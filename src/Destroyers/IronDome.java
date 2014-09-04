@@ -23,7 +23,7 @@ public class IronDome extends Thread {
 	// War is stored in order to gain access to War Time and if War is still Alive
 	
 	private int nextInterception;
-	private boolean alive;
+	private boolean alive = false;
 	
 	private FileHandler fh = null;
 	
