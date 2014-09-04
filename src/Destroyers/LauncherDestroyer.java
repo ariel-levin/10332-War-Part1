@@ -37,7 +37,7 @@ public class LauncherDestroyer extends Thread {
 		this.type = type;
 		this.war = war;
 		targetLaunchers = new Heap<Target>(Target.targetComparator);
-		ldstring = "LauncherDestroyer " + this.id + " " + this.type;
+		ldstring = "LauncherDestroyer " + this.id + " : " + this.type;
 		
 		setHandler();
 		logger.log(	Level.INFO, ldstring + " created",this);
@@ -223,8 +223,7 @@ public class LauncherDestroyer extends Thread {
 	}
 	
 	public String toString() {
-		String str = 	"---LauncherDestroyer " + this.id + " : " + type +
-						"\n\n\t---Launcher Targets\n\n";
+		String str = "---" + ldstring + "\n\n\t---Launcher Targets\n\n";
 		java.util.Iterator<Target> it = targetLaunchers.iterator();
 		while(it.hasNext()) {
 			Target t = it.next();
