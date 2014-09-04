@@ -1,4 +1,0 @@
-30/08/2014 20:27:44 (0) >       LauncherDestroyer 3 LauncherDestroyer created
-30/08/2014 20:34:46 (422) >     LauncherDestroyer 3 >> Trying to destroy Launcher L103
-                                >> Destruction duration time: (6) time units
-30/08/2014 20:34:52 (428) >     LauncherDestroyer 3 >> Launcher L103 destruction failed - Missed Launcher

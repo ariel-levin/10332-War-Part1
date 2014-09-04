@@ -23,13 +23,10 @@ public class Launcher extends Thread {
 	private War war;	// war that belongs to
 	// War is stored in order to gain access to War Time and if War is still Alive
 	
-	private boolean alive;
-
+	// if the launcher canBeHidden, it will be exposed after launching a missile, while it on-air
 	private boolean isHidden;
-	private int exposedTime;				// keeps the time the exposure started
-	private final int exposureTime = 5;		// how long will be exposed after launch
-	// Launcher will be exposed until the Missile Hits or Intercepted (while the Missile still On-Air)
-	// If the Missile already not On-Air, then the Launcher will be exposed until exposureTime pass
+	private boolean alive;
+	private boolean waitingForMissiles;	// if heap is empty and the launcher waiting for missiles
 
 	private int missileLaunchCount = 0;
 	private int missileInterceptedCount = 0;
@@ -106,13 +103,18 @@ public class Launcher extends Thread {
 			
 			while (alive) {
 				
-				checkHidden();	// checks if launcher should be hidden or not
-				
 				Missile m = null;
 				
 				synchronized (missiles) {
 					if (missiles.getSize() > 0)		// if there are missiles in the heap
 						m = missiles.getHead();
+					else {
+						waitingForMissiles = true;
+						synchronized (this) {
+							wait();
+						}
+						waitingForMissiles = false;
+					}
 				}
 				
 				if (m != null) {	// if missile was found on the Heap's head
@@ -202,7 +204,7 @@ public class Launcher extends Thread {
 		return missileHitCount;
 	}
 
-	/** Return if the Launcher Destroyed: 1=Yes, 0=No */
+	/** Return if the Launcher Destroyed */
 	public boolean isLauncherDestroyed() {
 		return launcherDestroyed;
 	}
@@ -215,8 +217,7 @@ public class Launcher extends Thread {
 	/** Add the input Missile to the Launcher's Missile Heap */
 	public void addMissile(Missile m) {
 		
-		// logging the missile creation if launcher already alive
-		// else it will be logged in 'logPreWarMissiles()' 
+		// logging the missile creation if launcher is already/still alive
 		if (alive) {
 			logger.log(	Level.INFO, "Launcher " + this.id + " >> Missile " + m.getID() +
 						" created" + LogFormatter.newLine + "Destination: " + m.getDestination() +
@@ -227,20 +228,10 @@ public class Launcher extends Thread {
 		synchronized (missiles) {
 			missiles.add(m);
 		}
-	}
-	
-	/** Checks the Launcher's Hidden status. If the Launcher launched a Missile,
-	 * it will be exposed until the Missile Hits or Intercepted (while the Missile still On-Air).
-	 * If the Missile already not On-Air, then the Launcher will be exposed until exposureTime pass */
-	private void checkHidden() {
-		synchronized (this) {
-			if ( !isHidden && canBeHidden ) {
-				if ( war.getTime() >= (exposedTime + exposureTime) ) {
-					logger.log(Level.INFO, "Launcher " + this.id + " is now hidden and safe",this);
-					isHidden = true;
-				}
-			}
-		}
+		
+		// notify in case was on wait because of empty heap
+		if (waitingForMissiles)
+			notify();
 	}
 	
 	/** Launch the input Missile */
@@ -256,9 +247,8 @@ public class Launcher extends Thread {
 		if (canBeHidden) {
 			logger.log(	Level.INFO, "Launcher " + this.id + " is now not hidden and exposed " +
 						"for attacks " + LogFormatter.newLine + "Exposed while Missile " + m.getID() +
-						" On-Air or (" + exposureTime + ") time units pass", this);
+						" On-Air: (" + m.getFlyTime() + ") time units", this);
 			isHidden = false;
-			exposedTime = war.getTime();
 		}
 	}
 	
@@ -284,6 +274,11 @@ public class Launcher extends Thread {
 					" Successfully hit " + m.getDestination() + "!" +
 					LogFormatter.newLine + "Total damage: " + m.getDamage(), this);
 
+		if (canBeHidden && alive) {
+			isHidden = true;
+			logger.log(Level.INFO, "Launcher " + this.id + " is now hidden and safe",this);
+		}
+		
 		notify();	// free the launcher from wait
 		
 		missileHitCount++;
@@ -297,6 +292,11 @@ public class Launcher extends Thread {
 					" was Intercepted!" + LogFormatter.newLine +
 					"Interception time: " + time, this	);
 
+		if (canBeHidden && alive) {
+			isHidden = true;
+			logger.log(Level.INFO, "Launcher " + this.id + " is now hidden and safe",this);
+		}
+		
 		notify();	// free the launcher from wait
 		
 		missileInterceptedCount++;
@@ -338,14 +338,14 @@ public class Launcher extends Thread {
 		
 		alive = false;
 		
-		try {
-			if (isAlive())
-				interrupt();
-			
-		} catch (IllegalMonitorStateException e) {
-			
-		}
+		try {	// surround with try because the thread might already be dead
+			notify();	// notify in case is on wait			
+		} catch (IllegalMonitorStateException e) {}
 		
+		try {	// surround with try because the thread might already be dead
+			interrupt();
+		} catch (SecurityException e) {}
+
 		Iterator<Missile> it = missiles.iterator();
 		while (it.hasNext())
 			it.next().end();

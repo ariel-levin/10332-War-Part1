@@ -161,6 +161,13 @@ public class War extends Thread {
 	/** Create and return a Document from the file 'fileName', ready for reading the XML file */
 	private Document getXMLfile(String fileName) {
 		File xmlFile = new File(FN);
+		
+		if (!xmlFile.exists() || xmlFile.isDirectory()) {
+			System.out.println("ERROR: XML File \"war.xml\" was not found in the Project's Directory");
+			System.out.println("Please put the XML file and launch the program again");
+			System.exit(0);
+		}
+		
 		DocumentBuilderFactory dbFactory = DocumentBuilderFactory.newInstance();
 		Document doc = null;
 

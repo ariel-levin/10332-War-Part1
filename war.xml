@@ -24,7 +24,7 @@
 			<destructedLanucher  id="L101" destructTime="4"/>
 		</destructor>
 		<destructor type="ship">
-			<destructedLanucher id="L102" destructTime="9" />
+			<destructedLanucher id="L102" destructTime="8" />
 			<destructedLanucher id="L102" destructTime="12"/>
 		</destructor>
 	</missileLauncherDestructors>

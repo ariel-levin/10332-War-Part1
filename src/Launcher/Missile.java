@@ -152,14 +152,14 @@ public class Missile extends Thread {
 	public void end() {
 		
 		onAir = false;
+
+		try {	// surround with try because the thread might already be dead
+			notify();	// notify in case is on wait			
+		} catch (IllegalMonitorStateException e) {}
 		
-		try {
-			if (isAlive())
-				interrupt();
-			
-		} catch (IllegalMonitorStateException e) {
-			
-		}
+		try {	// surround with try because the thread might already be dead
+			interrupt();
+		} catch (SecurityException e) {}
 	}
 	
 	@Override

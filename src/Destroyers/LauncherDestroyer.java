@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.util.logging.FileHandler;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
 import Launcher.Launcher;
 import Utility.*;
 import War.War;
@@ -97,6 +98,11 @@ public class LauncherDestroyer extends Thread {
 					if (targetLaunchers.getSize() > 0) {	// if there are targets in the heap
 						t = targetLaunchers.getHead();
 						l = (Launcher)(t.getTarget());
+					}
+					else {
+						synchronized (this) {
+							wait();
+						}
 					}
 				}
 				
@@ -210,6 +216,7 @@ public class LauncherDestroyer extends Thread {
 		synchronized (targetLaunchers) {
 			targetLaunchers.add(t);
 		}
+		notify();	// notify in case was on wait because of empty heap
 	}
 	
 	/** End the Launcher Destroyer and close the File Handler, used on War class, in endWar() Method */
@@ -217,13 +224,13 @@ public class LauncherDestroyer extends Thread {
 		
 		alive = false;
 		
-		try {
-			if (isAlive())
-				interrupt();
-			
-		} catch (IllegalMonitorStateException e) {
-			
-		}
+		try {	// surround with try because the thread might already be dead
+			notify();	// notify in case is on wait			
+		} catch (IllegalMonitorStateException e) {}
+		
+		try {	// surround with try because the thread might already be dead
+			interrupt();
+		} catch (SecurityException e) {}
 		
 		fh.close();
 	}

@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.util.logging.FileHandler;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
 import Launcher.Missile;
 import Utility.*;
 import War.War;
@@ -91,6 +92,11 @@ public class IronDome extends Thread {
 						t = targetMissiles.getHead();
 						m = (Missile)(t.getTarget());
 					}
+					else {
+						synchronized (this) {
+							wait();
+						}
+					}
 				}
 
 				if (m != null) {		// if missile was found on the Heap's head
@@ -152,7 +158,7 @@ public class IronDome extends Thread {
 
 	}
 	
-	/** Intercept the input Missile with action delay (intercetpion duration) and success chance.
+	/** Intercept the input Missile with action delay (interception duration) and success chance.
 	 * Used when the interception is set after War has started */
 	private void interceptMissileWithExtras(Missile m) {
 		
@@ -200,6 +206,7 @@ public class IronDome extends Thread {
 		synchronized (targetMissiles) {
 			targetMissiles.add(t);
 		}
+		notify();	// notify in case was on wait because of empty heap
 	}
 	
 	/** End the Iron Dome and close the File Handler, used on War class, in endWar() Method */
@@ -207,13 +214,13 @@ public class IronDome extends Thread {
 		
 		alive = false;
 		
-		try {
-			if (isAlive())
-				interrupt();
-			
-		} catch (IllegalMonitorStateException e) {
-			
-		}
+		try {	// surround with try because the thread might already be dead
+			notify();	// notify in case is on wait			
+		} catch (IllegalMonitorStateException e) {}
+		
+		try {	// surround with try because the thread might already be dead
+			interrupt();
+		} catch (SecurityException e) {}
 		
 		fh.close();
 	}
