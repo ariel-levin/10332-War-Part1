@@ -1,8 +1,0 @@
-30/08/2014 18:29:00 (148) >     Launcher L903 created and cannot be hidden
-30/08/2014 18:31:14 (281) >     Launcher L903 >> Missile M955 created
-                                >> Destination: loli , Launch Time: 281 , Estimated Land Time: 288
-30/08/2014 18:31:14 (282) >     Launcher L903 >> Trying to launch Missile M955
-30/08/2014 18:31:14 (282) >     Launcher L903 >> Missile M955 launched!
-30/08/2014 18:31:21 (289) >     Launcher L903 >> Missile M955 Missed destination loli!
-30/08/2014 18:32:12 (339) >     Launcher L903 was destroyed!
-                                >> Destruction time: 339

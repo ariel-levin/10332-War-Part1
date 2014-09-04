@@ -1,7 +1,0 @@
-11/08/2014 19:52:50 (0) >	MissileDestroyer D201 created
-11/08/2014 19:52:50 (2) >	MissileDestroyer D201 >> Trying to intercept Missile M4
-11/08/2014 19:52:50 (2) >	MissileDestroyer D201 >> Missile M4 interception failed, Missile may not be On-Air
-11/08/2014 19:52:51 (4) >	MissileDestroyer D201 >> Trying to intercept Missile M1
-11/08/2014 19:52:51 (4) >	MissileDestroyer D201 >> Missile M1 was intercepted successfully
-11/08/2014 19:52:51 (7) >	MissileDestroyer D201 >> Trying to intercept Missile M3
-11/08/2014 19:52:51 (7) >	MissileDestroyer D201 >> Missile M3 interception failed, Missile may not be On-Air

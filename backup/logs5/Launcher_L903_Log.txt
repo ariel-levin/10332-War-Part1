@@ -1,9 +1,0 @@
-30/08/2014 20:29:36 (112) >     Launcher L903 created and cannot be hidden
-30/08/2014 20:31:14 (210) >     Launcher L903 >> Missile M657 created
-                                >> Destination: fuji , Launch Time: 210 , Estimated Land Time: 245
-30/08/2014 20:31:15 (211) >     Launcher L903 >> Trying to launch Missile M657
-30/08/2014 20:31:15 (211) >     Launcher L903 >> Missile M657 launched!
-30/08/2014 20:31:33 (229) >     Launcher L903 >> Missile M657 was Intercepted!
-                                >> Interception time: 229
-30/08/2014 20:31:38 (234) >     Launcher L903 was destroyed!
-                                >> Destruction time: 234

@@ -1,5 +1,0 @@
-11/08/2014 19:03:52 (0) >	LauncherDestroyer 2 Battleship created
-11/08/2014 19:03:53 (9) >	LauncherDestroyer 2 >> Trying to destroy Launcher L102
-11/08/2014 19:03:53 (9) >	LauncherDestroyer 2 >> Launcher L102 was destroyed successfully
-11/08/2014 19:03:53 (12) >	LauncherDestroyer 2 >> Trying to destroy Launcher L102
-11/08/2014 19:03:53 (12) >	LauncherDestroyer 2 >> Launcher L102 was destroyed successfully

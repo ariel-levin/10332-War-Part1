@@ -1,7 +1,10 @@
-04/09/2014 22:58:09 (0) >       IronDome D201 created
-04/09/2014 22:58:11 (2) >       IronDome D201 >> Trying to intercept Missile M4
-04/09/2014 22:58:11 (2) >       IronDome D201 >> Missile M4 interception failed, Missile may not be On-Air
-04/09/2014 22:58:13 (4) >       IronDome D201 >> Trying to intercept Missile M1
-04/09/2014 22:58:13 (4) >       IronDome D201 >> Missile M1 was intercepted successfully
-04/09/2014 22:58:16 (7) >       IronDome D201 >> Trying to intercept Missile M3
-04/09/2014 22:58:16 (7) >       IronDome D201 >> Missile M3 interception failed, Missile may not be On-Air
+05/09/2014 00:20:20 (0) >       IronDome D201 created
+05/09/2014 00:20:20 (0) >       IronDome D201 >> Target: Missile M1 , Interception time: 4
+05/09/2014 00:20:20 (0) >       IronDome D201 >> Target: Missile M3 , Interception time: 7
+05/09/2014 00:20:20 (0) >       IronDome D201 >> Target: Missile M4 , Interception time: 2
+05/09/2014 00:21:26 (2) >       IronDome D201 >> Trying to intercept Missile M4
+05/09/2014 00:21:26 (2) >       IronDome D201 >> Missile M4 interception failed, Missile may not be On-Air
+05/09/2014 00:21:28 (4) >       IronDome D201 >> Trying to intercept Missile M1
+05/09/2014 00:21:28 (4) >       IronDome D201 >> Missile M1 was intercepted successfully
+05/09/2014 00:21:31 (7) >       IronDome D201 >> Trying to intercept Missile M3
+05/09/2014 00:21:31 (7) >       IronDome D201 >> Missile M3 interception failed, Missile may not be On-Air

@@ -26,7 +26,7 @@ public class Launcher extends Thread {
 	// if the launcher canBeHidden, it will be exposed after launching a missile, while it on-air
 	private boolean isHidden;
 	private boolean alive;
-	private boolean waitingForMissiles;	// if heap is empty and the launcher waiting for missiles
+	private boolean waitingForMissiles = false;		// if heap is empty and the launcher waiting for missiles
 
 	private int missileLaunchCount = 0;
 	private int missileInterceptedCount = 0;
@@ -37,23 +37,6 @@ public class Launcher extends Thread {
 	private FileHandler fh = null;
 
 	
-	/** Constructor with Missile Heap input */
-	public Launcher(String id, boolean canBeHidden, Heap<Missile> missiles, War war) {
-		super();
-		this.id = id;
-		this.canBeHidden = canBeHidden;
-		this.missiles = missiles;
-		this.war = war;
-		
-		isHidden = canBeHidden;
-		setHandler();
-		
-		// if the war hasn't started yet, increases the Pre-War thread count
-		if (!war.alive())
-			war.increasePreWarThreadCount();
-	}
-	
-	/** Constructor without Missile Heap input - Creates new */
 	public Launcher(String id, boolean canBeHidden, War war) {
 		super();
 		this.id = id;
@@ -63,6 +46,11 @@ public class Launcher extends Thread {
 		
 		isHidden = canBeHidden;
 		setHandler();
+		
+		if (canBeHidden)
+			logger.log(Level.INFO, "Launcher " + this.id + " created and can be hidden", this);
+		else
+			logger.log(Level.INFO, "Launcher " + this.id + " created and cannot be hidden", this);
 		
 		// if the war hasn't started yet, increases the Pre-War thread count
 		if (!war.alive())
@@ -84,12 +72,6 @@ public class Launcher extends Thread {
 	}
 
 	public void run() {
-		if (canBeHidden)
-			logger.log(Level.INFO, "Launcher " + this.id + " created and can be hidden", this);
-		else
-			logger.log(Level.INFO, "Launcher " + this.id + " created and cannot be hidden", this);
-			
-		logPreWarMissiles();
 		
 		try {
 			// WarStartLatch - waiting for all the threads to start together
@@ -105,16 +87,14 @@ public class Launcher extends Thread {
 				
 				Missile m = null;
 				
-				synchronized (missiles) {
-					if (missiles.getSize() > 0)		// if there are missiles in the heap
-						m = missiles.getHead();
-					else {
-						waitingForMissiles = true;
-						synchronized (this) {
-							wait();
-						}
-						waitingForMissiles = false;
+				if (missiles.getSize() > 0)		// if there are missiles in the heap
+					m = missiles.getHead();
+				else {
+					waitingForMissiles = true;
+					synchronized (this) {
+						wait();
 					}
+					waitingForMissiles = false;
 				}
 				
 				if (m != null) {	// if missile was found on the Heap's head
@@ -143,18 +123,6 @@ public class Launcher extends Thread {
 		}
 		
 		alive = false;
-	}
-	
-	/** Log all the Missiles in the Heap (if the War hasn't started yet) */
-	private void logPreWarMissiles() {
-		Iterator<Missile> it = missiles.iterator();
-		while(it.hasNext()) {
-			Missile m = it.next();
-			logger.log(	Level.INFO, "Launcher " + this.id + " >> Missile " + m.getID() +
-						" created" + LogFormatter.newLine + "Destination: " + m.getDestination() +
-						" , Launch Time: " + m.getLaunchTime()  + " , Estimated Land Time: " +
-						(m.getLaunchTime()+m.getFlyTime()), this);
-		}
 	}
 	
 	/** Returns the Launcher ID */
@@ -215,19 +183,17 @@ public class Launcher extends Thread {
 	}
 
 	/** Add the input Missile to the Launcher's Missile Heap */
-	public void addMissile(Missile m) {
+	public synchronized void addMissile(Missile m) {
 		
 		// logging the missile creation if launcher is already/still alive
-		if (alive) {
+		if (!launcherDestroyed) {
 			logger.log(	Level.INFO, "Launcher " + this.id + " >> Missile " + m.getID() +
 						" created" + LogFormatter.newLine + "Destination: " + m.getDestination() +
 						" , Launch Time: " + m.getLaunchTime()  + " , Estimated Land Time: " +
 						(m.getLaunchTime()+m.getFlyTime()), this );
 		}
 		
-		synchronized (missiles) {
-			missiles.add(m);
-		}
+		missiles.add(m);
 		
 		// notify in case was on wait because of empty heap
 		if (waitingForMissiles)
@@ -311,6 +277,7 @@ public class Launcher extends Thread {
 				return false;
 
 			alive = false;
+			launcherDestroyed = true;
 			notify();	// free the launcher if was on wait
 			
 			// let all the Missiles that belongs to the Launcher that it was Destroyed
@@ -327,14 +294,12 @@ public class Launcher extends Thread {
 			logger.log(	Level.INFO, "Launcher " + this.id + " was destroyed!" +
 						LogFormatter.newLine + "Destruction time: " + time, this);
 
-			launcherDestroyed = true;
-			
 			return true;
 		}
 	}
 
 	/** End the Launcher and close the File Handler, used on War class, in endWar() Method */
-	public void end() {
+	public synchronized void end() {
 		
 		alive = false;
 		

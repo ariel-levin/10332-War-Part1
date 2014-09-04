@@ -1,0 +1,16 @@
+05/09/2014 00:20:30 (0) >       LauncherDestroyer 4 LauncherDestroyer created
+05/09/2014 00:20:35 (0) >       LauncherDestroyer 4 >> Target: Launcher L101 , Destroy time: 15
+05/09/2014 00:21:39 (15) >      LauncherDestroyer 4 >> Trying to destroy Launcher L101
+05/09/2014 00:21:39 (15) >      LauncherDestroyer 4 >> Launcher L101 destruction failed - hidden or already destroyed
+05/09/2014 00:21:43 (19) >      LauncherDestroyer 4 >> Target: Launcher L104 , Destroy time: 19
+05/09/2014 00:21:43 (19) >      LauncherDestroyer 4 >> Trying to destroy Launcher L104
+                                >> Destruction duration time: (8) time units
+05/09/2014 00:21:51 (27) >      LauncherDestroyer 4 >> Launcher L104 destruction failed - Missed Launcher
+05/09/2014 00:21:51 (27) >      LauncherDestroyer 4 >> Target: Launcher L104 , Destroy time: 26
+05/09/2014 00:21:52 (28) >      LauncherDestroyer 4 >> Trying to destroy Launcher L104
+                                >> Destruction duration time: (5) time units
+05/09/2014 00:21:57 (33) >      LauncherDestroyer 4 >> Launcher L104 destruction failed - hidden or already destroyed
+05/09/2014 00:22:15 (51) >      LauncherDestroyer 4 >> Target: Launcher L103 , Destroy time: 51
+05/09/2014 00:22:15 (51) >      LauncherDestroyer 4 >> Trying to destroy Launcher L103
+                                >> Destruction duration time: (10) time units
+05/09/2014 00:22:25 (61) >      LauncherDestroyer 4 >> Launcher L103 destruction failed - Missed Launcher

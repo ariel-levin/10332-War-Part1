@@ -687,11 +687,11 @@ public class War extends Thread {
 		System.out.println("7: Show Statistics");
 		System.out.println("8: End War & Show Statistics");
 		System.out.println();
-		System.out.print("Please enter your choice (number): ");
 
 		boolean ok = false;
 		while (!ok) {
 			try {
+				System.out.print("Please enter your choice (number): ");
 				choice = in.nextInt();
 				
 				if (choice < 1 || choice > 8)
@@ -700,7 +700,7 @@ public class War extends Thread {
 				ok = true;
 			} catch (InputMismatchException e) {
 				System.out.println("\nERROR: not a valid choice");
-				System.out.print("Please enter your choice (number): ");
+				in.nextLine();
 			}
 		}
 		System.out.println();

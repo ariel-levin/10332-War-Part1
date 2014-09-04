@@ -1,0 +1,5 @@
+05/09/2014 00:21:30 (6) >       LauncherDestroyer 5 LauncherDestroyer created
+05/09/2014 00:21:34 (11) >      LauncherDestroyer 5 >> Target: Launcher L104 , Destroy time: 11
+05/09/2014 00:21:34 (11) >      LauncherDestroyer 5 >> Trying to destroy Launcher L104
+                                >> Destruction duration time: (5) time units
+05/09/2014 00:21:39 (15) >      LauncherDestroyer 5 >> Launcher L104 destruction failed - hidden or already destroyed

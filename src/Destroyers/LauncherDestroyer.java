@@ -4,7 +4,6 @@ import java.io.IOException;
 import java.util.logging.FileHandler;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-
 import Launcher.Launcher;
 import Utility.*;
 import War.War;
@@ -31,22 +30,7 @@ public class LauncherDestroyer extends Thread {
 	
 	private FileHandler fh = null;
 	
-	/** Constructor with Target Heap input */
-	public LauncherDestroyer(String type, Heap<Target> targetLaunchers, War war) {
-		super();
-		this.id = ++idGenerator;
-		this.type = type;
-		this.targetLaunchers = targetLaunchers;
-		this.war = war;
-		
-		setHandler();
-		
-		// if the war hasn't started yet, increases the Pre-War thread count
-		if (!war.alive())
-			war.increasePreWarThreadCount();
-	}
-	
-	/** Constructor without Target Heap input - Creates new */
+
 	public LauncherDestroyer(String type, War war) {
 		super();
 		this.id = ++idGenerator;
@@ -55,6 +39,8 @@ public class LauncherDestroyer extends Thread {
 		targetLaunchers = new Heap<Target>(Target.targetComparator);
 		
 		setHandler();
+		logger.log(	Level.INFO, "LauncherDestroyer " + this.id + " " +
+					this.getClass().getSimpleName() + " created",this);
 		
 		// if the war hasn't started yet, increases the Pre-War thread count
 		if (!war.alive())
@@ -77,8 +63,7 @@ public class LauncherDestroyer extends Thread {
 	}
 
 	public void run() {
-		logger.log(	Level.INFO, "LauncherDestroyer " + this.id + " " +
-					this.getClass().getSimpleName() + " created",this);
+
 		try {
 			// WarStartLatch - waiting for all the threads to start together
 			// only if war hasn't start yet (pre-war setup)
@@ -91,19 +76,18 @@ public class LauncherDestroyer extends Thread {
 			
 			while (alive) {
 				
+				if (targetLaunchers.getSize() <= 0) {
+					synchronized (this) {
+						wait();
+					}
+				}
+				
 				Target t = null;
 				Launcher l = null;
 				
-				synchronized (targetLaunchers) {
-					if (targetLaunchers.getSize() > 0) {	// if there are targets in the heap
-						t = targetLaunchers.getHead();
-						l = (Launcher)(t.getTarget());
-					}
-					else {
-						synchronized (this) {
-							wait();
-						}
-					}
+				if (targetLaunchers.getSize() > 0) {	// if there are targets in the heap
+					t = targetLaunchers.getHead();
+					l = (Launcher)(t.getTarget());
 				}
 				
 				if (l != null) {		// if launcher was found on the Heap's head
@@ -212,15 +196,20 @@ public class LauncherDestroyer extends Thread {
 	}
 	
 	/** Add the input Target to the Launcher Destroyer's Target Heap */
-	public void addTarget(Target t) {
-		synchronized (targetLaunchers) {
-			targetLaunchers.add(t);
-		}
-		notify();	// notify in case was on wait because of empty heap
+	public synchronized void addTarget(Target t) {
+		
+		Launcher l = (Launcher)t.getTarget();
+		logger.log(	Level.INFO, "LauncherDestroyer " + this.id + " >> Target: Launcher " +
+					l.getID() + " , Destroy time: " + t.getDestroyTime() , this );
+		
+		targetLaunchers.add(t);
+		
+		if (alive)
+			notify();	// notify in case was on wait because of empty heap
 	}
 	
 	/** End the Launcher Destroyer and close the File Handler, used on War class, in endWar() Method */
-	public void end() {
+	public synchronized void end() {
 		
 		alive = false;
 		

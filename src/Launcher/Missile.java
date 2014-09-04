@@ -149,7 +149,7 @@ public class Missile extends Thread {
 	}
 
 	/** End the Missile, used on War class, in endWar() Method */
-	public void end() {
+	public synchronized void end() {
 		
 		onAir = false;
 

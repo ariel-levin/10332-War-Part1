@@ -40,10 +40,7 @@ public class ReadXML {
 				String id = launcher.getAttribute("id");
 				boolean isHidden = Boolean.parseBoolean(launcher.getAttribute("isHidden"));
 
-				/* create minimum heap to store missiles, sorted by launch time */
-				Heap<Missile> missileHeap = new Heap<Missile>(Missile.missileComparator);
-				
-				Launcher l = new Launcher(id,isHidden,missileHeap,war);
+				Launcher l = new Launcher(id,isHidden,war);
 				
 				NodeList missilesXML = launcher.getElementsByTagName("missile");
 				
@@ -86,8 +83,7 @@ public class ReadXML {
 
 				String id = dome.getAttribute("id");
 
-				/* create minimum heap to store missiles to destroy, sorted by destroy time */
-				Heap<Target> missileHeap = new Heap<Target>(Target.targetComparator);
+				IronDome irond = new IronDome(id,war);
 
 				NodeList missilesXML = dome.getElementsByTagName("destructdMissile");
 
@@ -106,12 +102,11 @@ public class ReadXML {
 						if (m != null) {	// if missile exist
 							int destroyTime = Integer.parseInt(missile.getAttribute("destructAfterLaunch"));
 							Target t = new Target(m, destroyTime, false);
-							missileHeap.add(t);
+							irond.addTarget(t);
 						}
 						
 					}
 				}
-				IronDome irond = new IronDome(id,missileHeap,war);
 				domeMap.put(irond.getID(), irond);
 			}
 		}
@@ -136,8 +131,7 @@ public class ReadXML {
 				
 				String type = destroyer.getAttribute("type");
 				
-				/* create minimum heap to store missile launchers to destroy, sorted by destroy time */
-				Heap<Target> launcherHeap = new Heap<Target>(Target.targetComparator);
+				LauncherDestroyer ld = new LauncherDestroyer(type,war);
 
 				NodeList launchersXML = destroyer.getElementsByTagName("destructedLanucher");
 
@@ -156,13 +150,11 @@ public class ReadXML {
 						if ( l != null ) {	// if launcher exist
 							int destroyTime = Integer.parseInt(launcher.getAttribute("destructTime"));
 							Target t = new Target(l, destroyTime, false);
-							launcherHeap.add(t);
+							ld.addTarget(t);
 						}
 
 					}
 				}
-				
-				LauncherDestroyer ld = new LauncherDestroyer(type,launcherHeap,war);
 				launcherDestroyerList.add(ld);
 			}
 		}

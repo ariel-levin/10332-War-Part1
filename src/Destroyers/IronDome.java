@@ -4,7 +4,6 @@ import java.io.IOException;
 import java.util.logging.FileHandler;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-
 import Launcher.Missile;
 import Utility.*;
 import War.War;
@@ -28,21 +27,7 @@ public class IronDome extends Thread {
 	
 	private FileHandler fh = null;
 	
-	/** Constructor with Target Heap input */
-	public IronDome(String id, Heap<Target> targetMissiles, War war) {
-		super();
-		this.id = id;
-		this.targetMissiles = targetMissiles;
-		this.war = war;
-		
-		setHandler();
-		
-		// if the war hasn't started yet, increases the Pre-War thread count
-		if (!war.alive())
-			war.increasePreWarThreadCount();
-	}
 	
-	/** Constructor without Target Heap input - Creates new */
 	public IronDome(String id, War war) {
 		super();
 		this.id = id;
@@ -50,6 +35,7 @@ public class IronDome extends Thread {
 		targetMissiles = new Heap<Target>(Target.targetComparator);
 		
 		setHandler();
+		logger.log(Level.INFO, "IronDome " + this.id + " created",this);
 		
 		// if the war hasn't started yet, increases the Pre-War thread count
 		if (!war.alive())
@@ -71,7 +57,7 @@ public class IronDome extends Thread {
 	}
 
 	public void run() {
-		logger.log(Level.INFO, "IronDome " + this.id + " created",this);
+	
 		try {
 			// WarStartLatch - waiting for all the threads to start together
 			// only if war hasn't start yet (pre-war setup)
@@ -87,15 +73,13 @@ public class IronDome extends Thread {
 				Target t = null;
 				Missile m = null;
 				
-				synchronized (targetMissiles) {
-					if (targetMissiles.getSize() > 0) {	// if there are targets in the heap
-						t = targetMissiles.getHead();
-						m = (Missile)(t.getTarget());
-					}
-					else {
-						synchronized (this) {
-							wait();
-						}
+				if (targetMissiles.getSize() > 0) {	// if there are targets in the heap
+					t = targetMissiles.getHead();
+					m = (Missile)(t.getTarget());
+				}
+				else {
+					synchronized (this) {
+						wait();
 					}
 				}
 
@@ -202,15 +186,20 @@ public class IronDome extends Thread {
 	}
 	
 	/** Add the input Target to the Iron Dome's Target Heap */
-	public void addTarget(Target t) {
-		synchronized (targetMissiles) {
-			targetMissiles.add(t);
-		}
-		notify();	// notify in case was on wait because of empty heap
+	public synchronized void addTarget(Target t) {
+		
+		Missile m = (Missile)t.getTarget();
+		logger.log(	Level.INFO, "IronDome " + this.id + " >> Target: Missile " +
+					m.getID() + " , Interception time: " + t.getDestroyTime() , this );
+		
+		targetMissiles.add(t);
+		
+		if (alive)
+			notify();	// notify in case was on wait because of empty heap
 	}
 	
 	/** End the Iron Dome and close the File Handler, used on War class, in endWar() Method */
-	public void end() {
+	public synchronized void end() {
 		
 		alive = false;
 		

@@ -1,6 +1,0 @@
-30/08/2014 20:27:44 (0) >       LauncherDestroyer 1 LauncherDestroyer created
-30/08/2014 20:27:48 (4) >       LauncherDestroyer 1 >> Trying to destroy Launcher L101
-30/08/2014 20:27:48 (4) >       LauncherDestroyer 1 >> Launcher L101 was destroyed successfully
-30/08/2014 20:34:34 (410) >     LauncherDestroyer 1 >> Trying to destroy Launcher L105
-                                >> Destruction duration time: (6) time units
-30/08/2014 20:34:40 (416) >     LauncherDestroyer 1 >> Launcher L105 was destroyed successfully
