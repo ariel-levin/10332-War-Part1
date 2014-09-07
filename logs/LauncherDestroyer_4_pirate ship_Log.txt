@@ -1,24 +1,15 @@
-07/09/2014 16:43:19 (0) >       LauncherDestroyer 4 : pirate ship created
-07/09/2014 16:43:25 (0) >       LauncherDestroyer 4 : pirate ship >> Target: Launcher L101 , Destroy time: 15
-07/09/2014 16:44:25 (15) >      LauncherDestroyer 4 : pirate ship >> Trying to destroy Launcher L101
-07/09/2014 16:44:25 (15) >      LauncherDestroyer 4 : pirate ship >> Launcher L101 destruction failed 
+07/09/2014 18:33:28 (0) >       LauncherDestroyer 4 : pirate ship created
+07/09/2014 18:33:32 (0) >       LauncherDestroyer 4 : pirate ship >> Target: Launcher L101 , Destroy time: 15
+07/09/2014 18:34:46 (15) >      LauncherDestroyer 4 : pirate ship >> Trying to destroy Launcher L101
+07/09/2014 18:34:46 (15) >      LauncherDestroyer 4 : pirate ship >> Launcher L101 destruction failed 
                                 >> Hidden or already Destroyed
-07/09/2014 16:44:46 (36) >      LauncherDestroyer 4 : pirate ship >> Target: Launcher L103 , Destroy time: 36
-07/09/2014 16:44:47 (37) >      LauncherDestroyer 4 : pirate ship >> Trying to destroy Launcher L103
+07/09/2014 18:38:01 (207) >     LauncherDestroyer 4 : pirate ship >> Target: Launcher L103 , Destroy time: 207
+07/09/2014 18:38:02 (208) >     LauncherDestroyer 4 : pirate ship >> Trying to destroy Launcher L103
                                 >> Destruction duration time: (8) time units
-07/09/2014 16:44:55 (45) >      LauncherDestroyer 4 : pirate ship >> Launcher L103 destruction failed 
+07/09/2014 18:38:10 (216) >     LauncherDestroyer 4 : pirate ship >> Launcher L103 destruction failed 
                                 >> Hidden or already Destroyed
-07/09/2014 16:49:03 (293) >     LauncherDestroyer 4 : pirate ship >> Target: Launcher L901 , Destroy time: 293
-07/09/2014 16:49:04 (294) >     LauncherDestroyer 4 : pirate ship >> Trying to destroy Launcher L901
-                                >> Destruction duration time: (5) time units
-07/09/2014 16:49:09 (299) >     LauncherDestroyer 4 : pirate ship >> Launcher L901 was destroyed successfully
-07/09/2014 16:50:31 (380) >     LauncherDestroyer 4 : pirate ship >> Target: Launcher L902 , Destroy time: 380
-07/09/2014 16:50:32 (381) >     LauncherDestroyer 4 : pirate ship >> Trying to destroy Launcher L902
-                                >> Destruction duration time: (7) time units
-07/09/2014 16:50:39 (388) >     LauncherDestroyer 4 : pirate ship >> Launcher L902 destruction failed 
+07/09/2014 18:39:12 (278) >     LauncherDestroyer 4 : pirate ship >> Target: Launcher L105 , Destroy time: 278
+07/09/2014 18:39:13 (279) >     LauncherDestroyer 4 : pirate ship >> Trying to destroy Launcher L105
+                                >> Destruction duration time: (8) time units
+07/09/2014 18:39:21 (287) >     LauncherDestroyer 4 : pirate ship >> Launcher L105 destruction failed 
                                 >> Missed Launcher
-07/09/2014 16:51:53 (462) >     LauncherDestroyer 4 : pirate ship >> Target: Launcher L104 , Destroy time: 462
-07/09/2014 16:51:54 (463) >     LauncherDestroyer 4 : pirate ship >> Trying to destroy Launcher L104
-                                >> Destruction duration time: (4) time units
-07/09/2014 16:51:58 (467) >     LauncherDestroyer 4 : pirate ship >> Launcher L104 destruction failed 
-                                >> Hidden or already Destroyed

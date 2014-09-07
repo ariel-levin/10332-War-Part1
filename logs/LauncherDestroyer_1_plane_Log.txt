@@ -1,4 +1,8 @@
-07/09/2014 16:43:05 (0) >       LauncherDestroyer 1 : plane created
-07/09/2014 16:43:05 (0) >       LauncherDestroyer 1 : plane >> Target: Launcher L101 , Destroy time: 4
-07/09/2014 16:44:14 (4) >       LauncherDestroyer 1 : plane >> Trying to destroy Launcher L101
-07/09/2014 16:44:14 (4) >       LauncherDestroyer 1 : plane >> Launcher L101 was destroyed successfully
+07/09/2014 18:33:18 (0) >       LauncherDestroyer 1 : plane created
+07/09/2014 18:33:18 (0) >       LauncherDestroyer 1 : plane >> Target: Launcher L101 , Destroy time: 4
+07/09/2014 18:34:35 (4) >       LauncherDestroyer 1 : plane >> Trying to destroy Launcher L101
+07/09/2014 18:34:35 (4) >       LauncherDestroyer 1 : plane >> Launcher L101 was destroyed successfully
+07/09/2014 18:39:58 (323) >     LauncherDestroyer 1 : plane >> Target: Launcher L501 , Destroy time: 323
+07/09/2014 18:39:59 (324) >     LauncherDestroyer 1 : plane >> Trying to destroy Launcher L501
+                                >> Destruction duration time: (9) time units
+07/09/2014 18:40:08 (333) >     LauncherDestroyer 1 : plane >> Launcher L501 was destroyed successfully

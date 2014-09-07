@@ -1,0 +1,11 @@
+07/09/2014 18:39:42 (308) >     Launcher L501 created and can be hidden
+07/09/2014 18:39:52 (318) >     Launcher L501 >> Missile M165 created
+                                >> Destination: hhh , Launch Time: 318 , Estimated Land Time: 618
+07/09/2014 18:39:53 (319) >     Launcher L501 >> Trying to launch Missile M165
+07/09/2014 18:39:53 (319) >     Launcher L501 >> Missile M165 launched!
+07/09/2014 18:39:53 (319) >     Launcher L501 is now not hidden and exposed for attacks 
+                                >> Exposed while Missile M165 On-Air: (300) time units
+07/09/2014 18:40:08 (333) >     Launcher L501 was destroyed!
+                                >> Destruction time: 333
+07/09/2014 18:40:13 (339) >     Launcher L501 >> Missile M165 was Intercepted!
+                                >> Interception time: 339

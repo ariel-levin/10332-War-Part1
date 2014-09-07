@@ -1,0 +1,3 @@
+07/09/2014 18:37:45 (192) >     Launcher L500 created and cannot be hidden
+07/09/2014 18:37:58 (205) >     Launcher L500 was destroyed!
+                                >> Destruction time: 205

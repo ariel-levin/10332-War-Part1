@@ -1,11 +1,7 @@
-07/09/2014 16:43:56 (0) >       IronDome D203 created
-07/09/2014 16:44:00 (0) >       IronDome D203 >> Target: Missile M4 , Interception time: 30
-07/09/2014 16:44:03 (0) >       IronDome D203 >> Target: Missile M7 , Interception time: 21
-07/09/2014 16:44:31 (21) >      IronDome D203 >> Trying to intercept Missile M7
-07/09/2014 16:44:31 (21) >      IronDome D203 >> Missile M7 interception failed, Missile may not be On-Air
-07/09/2014 16:44:40 (30) >      IronDome D203 >> Trying to intercept Missile M4
-07/09/2014 16:44:40 (30) >      IronDome D203 >> Missile M4 interception failed, Missile may not be On-Air
-07/09/2014 16:49:22 (311) >     IronDome D203 >> Target: Missile M465 , Interception time: 311
-07/09/2014 16:49:23 (312) >     IronDome D203 >> Trying to intercept Missile M465
-                                >> Interception duration time: (3) time units
-07/09/2014 16:49:26 (315) >     IronDome D203 >> Missile M465 interception failed - Missed Missile
+07/09/2014 18:34:13 (0) >       IronDome D203 created
+07/09/2014 18:34:22 (0) >       IronDome D203 >> Target: Missile M4 , Interception time: 30
+07/09/2014 18:34:24 (0) >       IronDome D203 >> Target: Missile M7 , Interception time: 21
+07/09/2014 18:34:52 (21) >      IronDome D203 >> Trying to intercept Missile M7
+07/09/2014 18:34:52 (21) >      IronDome D203 >> Missile M7 interception failed, Missile may not be On-Air
+07/09/2014 18:35:01 (30) >      IronDome D203 >> Trying to intercept Missile M4
+07/09/2014 18:35:01 (30) >      IronDome D203 >> Missile M4 interception failed, Missile may not be On-Air

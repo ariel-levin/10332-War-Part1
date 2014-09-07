@@ -1,4 +1,12 @@
-07/09/2014 16:43:05 (0) >       IronDome D202 created
-07/09/2014 16:43:05 (0) >       IronDome D202 >> Target: Missile M2 , Interception time: 3
-07/09/2014 16:44:13 (3) >       IronDome D202 >> Trying to intercept Missile M2
-07/09/2014 16:44:13 (3) >       IronDome D202 >> Missile M2 interception failed, Missile may not be On-Air
+07/09/2014 18:33:18 (0) >       IronDome D202 created
+07/09/2014 18:33:18 (0) >       IronDome D202 >> Target: Missile M2 , Interception time: 3
+07/09/2014 18:34:34 (3) >       IronDome D202 >> Trying to intercept Missile M2
+07/09/2014 18:34:34 (3) >       IronDome D202 >> Missile M2 interception failed, Missile may not be On-Air
+07/09/2014 18:36:58 (146) >     IronDome D202 >> Target: Missile M200 , Interception time: 146
+07/09/2014 18:36:59 (147) >     IronDome D202 >> Trying to intercept Missile M200
+                                >> Interception duration time: (10) time units
+07/09/2014 18:37:09 (156) >     IronDome D202 >> Missile M200 interception failed - Missed Missile
+07/09/2014 18:37:11 (159) >     IronDome D202 >> Target: Missile M200 , Interception time: 159
+07/09/2014 18:37:12 (160) >     IronDome D202 >> Trying to intercept Missile M200
+                                >> Interception duration time: (7) time units
+07/09/2014 18:37:19 (167) >     IronDome D202 >> Missile M200 was intercepted successfully

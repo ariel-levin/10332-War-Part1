@@ -1,6 +1,6 @@
-07/09/2014 16:43:10 (0) >       LauncherDestroyer 3 : spaceship created
-07/09/2014 16:44:56 (46) >      LauncherDestroyer 3 : spaceship >> Target: Launcher L104 , Destroy time: 46
-07/09/2014 16:44:57 (47) >      LauncherDestroyer 3 : spaceship >> Trying to destroy Launcher L104
-                                >> Destruction duration time: (8) time units
-07/09/2014 16:45:05 (55) >      LauncherDestroyer 3 : spaceship >> Launcher L104 destruction failed 
-                                >> Missed Launcher
+07/09/2014 18:33:24 (0) >       LauncherDestroyer 3 : spaceship created
+07/09/2014 18:34:58 (27) >      LauncherDestroyer 3 : spaceship >> Target: Launcher L103 , Destroy time: 27
+07/09/2014 18:34:59 (28) >      LauncherDestroyer 3 : spaceship >> Trying to destroy Launcher L103
+                                >> Destruction duration time: (3) time units
+07/09/2014 18:35:02 (31) >      LauncherDestroyer 3 : spaceship >> Launcher L103 destruction failed 
+                                >> Hidden or already Destroyed

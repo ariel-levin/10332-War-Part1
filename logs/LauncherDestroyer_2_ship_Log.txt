@@ -1,8 +1,8 @@
-07/09/2014 16:43:05 (0) >       LauncherDestroyer 2 : ship created
-07/09/2014 16:43:05 (0) >       LauncherDestroyer 2 : ship >> Target: Launcher L102 , Destroy time: 8
-07/09/2014 16:43:05 (0) >       LauncherDestroyer 2 : ship >> Target: Launcher L102 , Destroy time: 12
-07/09/2014 16:44:18 (8) >       LauncherDestroyer 2 : ship >> Trying to destroy Launcher L102
-07/09/2014 16:44:18 (8) >       LauncherDestroyer 2 : ship >> Launcher L102 destruction failed 
+07/09/2014 18:33:18 (0) >       LauncherDestroyer 2 : ship created
+07/09/2014 18:33:18 (0) >       LauncherDestroyer 2 : ship >> Target: Launcher L102 , Destroy time: 8
+07/09/2014 18:33:18 (0) >       LauncherDestroyer 2 : ship >> Target: Launcher L102 , Destroy time: 12
+07/09/2014 18:34:39 (8) >       LauncherDestroyer 2 : ship >> Trying to destroy Launcher L102
+07/09/2014 18:34:39 (8) >       LauncherDestroyer 2 : ship >> Launcher L102 destruction failed 
                                 >> Hidden or already Destroyed
-07/09/2014 16:44:22 (12) >      LauncherDestroyer 2 : ship >> Trying to destroy Launcher L102
-07/09/2014 16:44:22 (12) >      LauncherDestroyer 2 : ship >> Launcher L102 was destroyed successfully
+07/09/2014 18:34:43 (12) >      LauncherDestroyer 2 : ship >> Trying to destroy Launcher L102
+07/09/2014 18:34:43 (12) >      LauncherDestroyer 2 : ship >> Launcher L102 was destroyed successfully

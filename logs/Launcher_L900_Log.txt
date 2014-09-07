@@ -1,11 +1,11 @@
-07/09/2014 16:45:36 (85) >      Launcher L900 created and can be hidden
-07/09/2014 16:45:54 (104) >     Launcher L900 >> Missile M397 created
-                                >> Destination: aaa , Launch Time: 104 , Estimated Land Time: 1104
-07/09/2014 16:45:55 (105) >     Launcher L900 >> Trying to launch Missile M397
-07/09/2014 16:45:55 (105) >     Launcher L900 >> Missile M397 launched!
-07/09/2014 16:45:55 (105) >     Launcher L900 is now not hidden and exposed for attacks 
-                                >> Exposed while Missile M397 On-Air: (1000) time units
-07/09/2014 16:46:18 (128) >     Launcher L900 was destroyed!
-                                >> Destruction time: 128
-07/09/2014 16:46:40 (150) >     Launcher L900 >> Missile M397 was Intercepted!
-                                >> Interception time: 150
+07/09/2014 18:36:02 (91) >      Launcher L900 created and can be hidden
+07/09/2014 18:36:15 (103) >     Launcher L900 >> Missile M200 created
+                                >> Destination: aaa , Launch Time: 103 , Estimated Land Time: 403
+07/09/2014 18:36:16 (104) >     Launcher L900 >> Trying to launch Missile M200
+07/09/2014 18:36:16 (104) >     Launcher L900 >> Missile M200 launched!
+07/09/2014 18:36:16 (104) >     Launcher L900 is now not hidden and exposed for attacks 
+                                >> Exposed while Missile M200 On-Air: (300) time units
+07/09/2014 18:36:44 (132) >     Launcher L900 was destroyed!
+                                >> Destruction time: 132
+07/09/2014 18:37:19 (167) >     Launcher L900 >> Missile M200 was Intercepted!
+                                >> Interception time: 167
