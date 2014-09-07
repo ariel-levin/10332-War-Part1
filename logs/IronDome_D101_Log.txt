@@ -1,0 +1,5 @@
+07/09/2014 16:43:53 (0) >       IronDome D101 created
+07/09/2014 16:49:42 (332) >     IronDome D101 >> Target: Missile M465 , Interception time: 332
+07/09/2014 16:49:43 (333) >     IronDome D101 >> Trying to intercept Missile M465
+                                >> Interception duration time: (8) time units
+07/09/2014 16:49:51 (341) >     IronDome D101 >> Missile M465 interception failed - Missed Missile

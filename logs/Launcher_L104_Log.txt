@@ -1,0 +1,19 @@
+07/09/2014 16:43:40 (0) >       Launcher L104 created and can be hidden
+07/09/2014 16:43:50 (0) >       Launcher L104 >> Missile M5 created
+                                >> Destination: gaza , Launch Time: 20 , Estimated Land Time: 27
+07/09/2014 16:44:30 (20) >      Launcher L104 >> Trying to launch Missile M5
+07/09/2014 16:44:30 (20) >      Launcher L104 >> Missile M5 launched!
+07/09/2014 16:44:30 (20) >      Launcher L104 is now not hidden and exposed for attacks 
+                                >> Exposed while Missile M5 On-Air: (7) time units
+07/09/2014 16:44:37 (27) >      Launcher L104 >> Missile M5 Successfully hit gaza!
+                                >> Total damage: 1500
+07/09/2014 16:44:37 (27) >      Launcher L104 is now hidden and safe
+07/09/2014 16:44:53 (43) >      Launcher L104 >> Missile M738 created
+                                >> Destination: mordor , Launch Time: 43 , Estimated Land Time: 83
+07/09/2014 16:44:54 (44) >      Launcher L104 >> Trying to launch Missile M738
+07/09/2014 16:44:54 (44) >      Launcher L104 >> Missile M738 launched!
+07/09/2014 16:44:54 (44) >      Launcher L104 is now not hidden and exposed for attacks 
+                                >> Exposed while Missile M738 On-Air: (40) time units
+07/09/2014 16:45:31 (81) >      Launcher L104 >> Missile M738 was Intercepted!
+                                >> Interception time: 81
+07/09/2014 16:45:31 (81) >      Launcher L104 is now hidden and safe

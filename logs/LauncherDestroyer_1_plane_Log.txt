@@ -1,32 +1,4 @@
-05/09/2014 02:32:43 (0) >       LauncherDestroyer 1 : plane created
-05/09/2014 02:32:43 (0) >       LauncherDestroyer 1 : plane >> Target: Launcher L101 , Destroy time: 4
-05/09/2014 02:32:53 (4) >       LauncherDestroyer 1 : plane >> Trying to destroy Launcher L101
-05/09/2014 02:32:53 (4) >       LauncherDestroyer 1 : plane >> Launcher L101 was destroyed successfully
-05/09/2014 02:34:44 (116) >     LauncherDestroyer 1 : plane >> Target: Launcher L900 , Destroy time: 116
-05/09/2014 02:34:45 (117) >     LauncherDestroyer 1 : plane >> Trying to destroy Launcher L900
-                                >> Destruction duration time: (6) time units
-05/09/2014 02:34:51 (123) >     LauncherDestroyer 1 : plane >> Launcher L900 was destroyed successfully
-05/09/2014 02:34:53 (125) >     LauncherDestroyer 1 : plane >> Target: Launcher L400 , Destroy time: 125
-05/09/2014 02:34:54 (126) >     LauncherDestroyer 1 : plane >> Trying to destroy Launcher L400
-                                >> Destruction duration time: (5) time units
-05/09/2014 02:34:59 (131) >     LauncherDestroyer 1 : plane >> Launcher L400 destruction failed - Missed Launcher
-05/09/2014 02:34:59 (131) >     LauncherDestroyer 1 : plane >> Target: Launcher L400 , Destroy time: 128
-05/09/2014 02:35:00 (132) >     LauncherDestroyer 1 : plane >> Trying to destroy Launcher L400
-                                >> Destruction duration time: (4) time units
-05/09/2014 02:35:04 (136) >     LauncherDestroyer 1 : plane >> Launcher L400 destruction failed - hidden or already destroyed
-05/09/2014 02:35:05 (137) >     LauncherDestroyer 1 : plane >> Target: Launcher L400 , Destroy time: 137
-05/09/2014 02:35:05 (137) >     LauncherDestroyer 1 : plane >> Trying to destroy Launcher L400
-                                >> Destruction duration time: (7) time units
-05/09/2014 02:35:12 (144) >     LauncherDestroyer 1 : plane >> Launcher L400 destruction failed - hidden or already destroyed
-05/09/2014 02:35:31 (162) >     LauncherDestroyer 1 : plane >> Target: Launcher L400 , Destroy time: 162
-05/09/2014 02:35:32 (163) >     LauncherDestroyer 1 : plane >> Trying to destroy Launcher L400
-                                >> Destruction duration time: (3) time units
-05/09/2014 02:35:35 (166) >     LauncherDestroyer 1 : plane >> Launcher L400 was destroyed successfully
-05/09/2014 02:38:26 (337) >     LauncherDestroyer 1 : plane >> Target: Launcher L500 , Destroy time: 337
-05/09/2014 02:38:27 (338) >     LauncherDestroyer 1 : plane >> Trying to destroy Launcher L500
-                                >> Destruction duration time: (10) time units
-05/09/2014 02:38:37 (348) >     LauncherDestroyer 1 : plane >> Launcher L500 destruction failed - hidden or already destroyed
-05/09/2014 02:38:53 (364) >     LauncherDestroyer 1 : plane >> Target: Launcher L500 , Destroy time: 364
-05/09/2014 02:38:54 (365) >     LauncherDestroyer 1 : plane >> Trying to destroy Launcher L500
-                                >> Destruction duration time: (6) time units
-05/09/2014 02:39:00 (371) >     LauncherDestroyer 1 : plane >> Launcher L500 destruction failed - Missed Launcher
+07/09/2014 16:43:05 (0) >       LauncherDestroyer 1 : plane created
+07/09/2014 16:43:05 (0) >       LauncherDestroyer 1 : plane >> Target: Launcher L101 , Destroy time: 4
+07/09/2014 16:44:14 (4) >       LauncherDestroyer 1 : plane >> Trying to destroy Launcher L101
+07/09/2014 16:44:14 (4) >       LauncherDestroyer 1 : plane >> Launcher L101 was destroyed successfully

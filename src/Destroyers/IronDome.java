@@ -23,6 +23,7 @@ public class IronDome extends Thread {
 	// War is stored in order to gain access to War Time and if War is still Alive
 	
 	private boolean alive = false;
+	private boolean occupied = false;
 	
 	private FileHandler fh = null;
 	
@@ -119,6 +120,11 @@ public class IronDome extends Thread {
 		return alive;
 	}
 	
+	/** Returns if the Iron Dome is already intercepting other Missile */
+	public boolean isOccupied() {
+		return occupied;
+	}
+
 	/** Intercept the input Missile normally (immediately).
 	 * Used when the interception is set in Pre-War Setup */
 	private void interceptMissileNormally(Missile m) {
@@ -145,19 +151,19 @@ public class IronDome extends Thread {
 	private void interceptMissileWithExtras(Missile m) {
 		
 		// random number between 3 and 10, for interception duration
-		int rand = 3 + (int)(Math.random()*8);
+		int randDuration = 3 + (int)(Math.random()*8);
 
 		logger.log(	Level.INFO, "IronDome " + this.id + " >> " +
 					"Trying to intercept Missile " + m.getID() + LogFormatter.newLine +
-					"Interception duration time: (" + rand + ") time units", this);
+					"Interception duration time: (" + randDuration + ") time units", this);
 
+		occupied = true;
 		try {
 			synchronized (this) {
-				sleep(rand*War.DELAY);
+				sleep(randDuration*War.DELAY);
 			}
-		} catch (InterruptedException e) {
-
-		}
+		} catch (InterruptedException e) {}
+		occupied = false;
 		
 		// random number between 1 and 10, for success chance
 		int randSuccess = 1 + (int)(Math.random()*10);
@@ -197,14 +203,10 @@ public class IronDome extends Thread {
 	}
 	
 	/** End the Iron Dome and close the File Handler, used on War class, in endWar() Method */
-	public synchronized void end() {
+	public void end() {
 		
 		alive = false;
-		
-		try {	// surround with try because the thread might already be dead
-			notify();	// notify in case is on wait			
-		} catch (IllegalMonitorStateException e) {}
-		
+
 		try {	// surround with try because the thread might already be dead
 			interrupt();
 		} catch (SecurityException e) {}

@@ -1,0 +1,9 @@
+07/09/2014 16:51:10 (419) >     Launcher L303 created and can be hidden
+07/09/2014 16:51:21 (430) >     Launcher L303 >> Missile M182 created
+                                >> Destination: ggg , Launch Time: 430 , Estimated Land Time: 1030
+07/09/2014 16:51:22 (431) >     Launcher L303 >> Trying to launch Missile M182
+07/09/2014 16:51:22 (431) >     Launcher L303 >> Missile M182 launched!
+07/09/2014 16:51:22 (431) >     Launcher L303 is now not hidden and exposed for attacks 
+                                >> Exposed while Missile M182 On-Air: (600) time units
+07/09/2014 16:52:06 (475) >     Launcher L303 was destroyed!
+                                >> Destruction time: 475

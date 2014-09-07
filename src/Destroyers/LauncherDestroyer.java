@@ -4,6 +4,7 @@ import java.io.IOException;
 import java.util.logging.FileHandler;
 import java.util.logging.Level;
 import java.util.logging.Logger;
+
 import Launcher.Launcher;
 import Utility.*;
 import War.War;
@@ -26,6 +27,7 @@ public class LauncherDestroyer extends Thread {
 	// War is stored in order to gain access to War Time and if War is still Alive
 	
 	private boolean alive = false;
+	private boolean occupied = false;
 	private String ldstring;	// "LauncherDestroyer <id> <type>"
 	
 	private FileHandler fh = null;
@@ -131,6 +133,11 @@ public class LauncherDestroyer extends Thread {
 		return alive;
 	}
 	
+	/** Returns if the Launcher Destroyer is already destroying other Launcher */
+	public boolean isOccupied() {
+		return occupied;
+	}
+
 	/** Destroy the input Launcher normally (immediately).
 	 * Used when the destruction is set in Pre-War Setup */
 	private void destroyLauncherNormally(Launcher l) {
@@ -147,7 +154,8 @@ public class LauncherDestroyer extends Thread {
 						" was destroyed successfully", this);
 		else
 			logger.log(	Level.INFO, ldstring + " >> Launcher " + l.getID() +
-						" destruction failed - hidden or already destroyed", this);
+						" destruction failed " + LogFormatter.newLine +
+						"Hidden or already Destroyed", this);
 	}
 	
 	/** Destroy the input Launcher with action delay (destruction duration) and success chance.
@@ -161,13 +169,13 @@ public class LauncherDestroyer extends Thread {
 					LogFormatter.newLine + "Destruction duration time: (" + randDuration +
 					") time units", this);
 
+		occupied = true;
 		try {
 			synchronized (this) {
 				sleep(randDuration*War.DELAY);
 			}
-		} catch (InterruptedException e) {
-
-		}
+		} catch (InterruptedException e) {}
+		occupied = false;
 
 		// random number between 1 and 10, for success chance
 		int randSuccess = 1 + (int)(Math.random()*10);
@@ -175,7 +183,8 @@ public class LauncherDestroyer extends Thread {
 		// 1-7: Success , 8-10: Miss
 		if (randSuccess >= 8 && randSuccess <= 10) {
 			logger.log(	Level.INFO, ldstring + " >> Launcher " + l.getID() +
-						" destruction failed - Missed Launcher", this);
+						" destruction failed " + LogFormatter.newLine +
+						"Missed Launcher", this);
 			return;
 		}
 		
@@ -190,7 +199,8 @@ public class LauncherDestroyer extends Thread {
 						" was destroyed successfully", this);
 		else
 			logger.log(	Level.INFO, ldstring + " >> Launcher " + l.getID() +
-						" destruction failed - hidden or already destroyed", this);
+						" destruction failed " + LogFormatter.newLine +
+						"Hidden or already Destroyed", this);
 	}
 	
 	/** Add the input Target to the Launcher Destroyer's Target Heap */
@@ -207,13 +217,9 @@ public class LauncherDestroyer extends Thread {
 	}
 	
 	/** End the Launcher Destroyer and close the File Handler, used on War class, in endWar() Method */
-	public synchronized void end() {
+	public void end() {
 		
 		alive = false;
-		
-		try {	// surround with try because the thread might already be dead
-			notify();	// notify in case is on wait			
-		} catch (IllegalMonitorStateException e) {}
 		
 		try {	// surround with try because the thread might already be dead
 			interrupt();

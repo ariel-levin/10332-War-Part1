@@ -1,0 +1,10 @@
+07/09/2014 16:43:36 (0) >       Launcher L103 created and can be hidden
+07/09/2014 16:45:11 (61) >      Launcher L103 >> Missile M270 created
+                                >> Destination: gaza , Launch Time: 61 , Estimated Land Time: 121
+07/09/2014 16:45:12 (62) >      Launcher L103 >> Trying to launch Missile M270
+07/09/2014 16:45:12 (62) >      Launcher L103 >> Missile M270 launched!
+07/09/2014 16:45:12 (62) >      Launcher L103 is now not hidden and exposed for attacks 
+                                >> Exposed while Missile M270 On-Air: (60) time units
+07/09/2014 16:46:12 (121) >     Launcher L103 >> Missile M270 Successfully hit gaza!
+                                >> Total damage: 10000
+07/09/2014 16:46:12 (121) >     Launcher L103 is now hidden and safe

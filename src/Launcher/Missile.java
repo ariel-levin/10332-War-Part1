@@ -149,14 +149,10 @@ public class Missile extends Thread {
 	}
 
 	/** End the Missile, used on War class, in endWar() Method */
-	public synchronized void end() {
+	public void end() {
 		
 		onAir = false;
 
-		try {	// surround with try because the thread might already be dead
-			notify();	// notify in case is on wait			
-		} catch (IllegalMonitorStateException e) {}
-		
 		try {	// surround with try because the thread might already be dead
 			interrupt();
 		} catch (SecurityException e) {}

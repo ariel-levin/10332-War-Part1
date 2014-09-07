@@ -21,6 +21,7 @@ import Destroyers.*;
 import Launcher.*;
 import Utility.*;
 
+
 /** 
  * @author Ariel Levin
  * 
@@ -710,17 +711,26 @@ public class War extends Thread {
 	/** Ask for Launcher and Missile details from the user, and try to Launch it immediately */
 	private void launchMissile() {
 		
+		if (launchers.isEmpty()) {
+			System.out.println("\nERROR: no Launchers available, please add one first");
+			return;
+		}
+		
 		printLaunchers();
 		
 		System.out.println("\nEnter Launcher ID to Launch Missile from (one word):");
 		String launcherID = in.next();
 		Launcher launcher = launchers.get(launcherID);
-		while ( launcher == null || !launcher.alive() ) {
+		while ( launcher == null || !launcher.alive() || launcher.isOccupied() ) {
 			in.nextLine();
+			
 			if (launcher == null)
 				System.out.println("\nERROR: Launcher ID doesn't exist");
-			else
+			else if (!launcher.alive())
 				System.out.println("\nERROR: Launcher is destroyed");
+			else
+				System.out.println("\nERROR: Launcher is currently Launching other Missile");			
+			
 			System.out.println("Enter Launcher ID to Launch Missile from (one word) or # to cancel:");
 			launcherID = in.next();
 			if (launcherID.compareTo("#") == 0)
@@ -782,13 +792,14 @@ public class War extends Thread {
 	private void destroyLauncher() {
 		
 		if (launcherDestroyers.size() == 0) {
-			System.out.println("\nERROR: no Launcher Destroyer available, please add one first");
+			System.out.println("\nERROR: no Launcher Destroyers available, please add one first");
 			return;
 		}
 		
 		printLauncherDestroyers();
 
 		int size = launcherDestroyers.size();
+		LauncherDestroyer ld = null;
 		boolean ok = false;
 		int choice = -1;
 		while (!ok) {
@@ -802,14 +813,19 @@ public class War extends Thread {
 				if ( (choice < 0) || (choice >= size) )
 					throw new InputMismatchException();
 				
-				ok = true;
+				ld = launcherDestroyers.get(choice);
+				
+				if (ld.isOccupied()) {
+					System.out.println("\nERROR: Launcher Destroyer is currently Destroying other Launcher");
+					in.nextLine();
+				} else
+					ok = true;
+				
 			} catch (InputMismatchException e) {
 				System.out.println("\nERROR: not a valid choice");
 				in.nextLine();
 			}
 		}
-		
-		LauncherDestroyer ld = launcherDestroyers.get(choice);
 		
 		printLaunchers();
 		
@@ -841,14 +857,23 @@ public class War extends Thread {
 	
 	/** Ask for Iron-Dome and Missile from the user, and try to intercept it immediately */
 	private void interceptMissile() {
+		
+		if (ironDomes.isEmpty()) {
+			System.out.println("\nERROR: no Iron Domes available, please add one first");
+			return;
+		}
+		
 		printIronDomes();
 		
 		System.out.println("\nEnter IronDome ID to Intercept Missile with (one word):");
 		String irondID = in.next();
 		IronDome irond = ironDomes.get(irondID);
-		while ( irond == null ) {
+		while ( irond == null || irond.isOccupied() ) {
 			in.nextLine();
-			System.out.println("\nERROR: IronDome ID doesn't exist");
+			if (irond == null)
+				System.out.println("\nERROR: IronDome ID doesn't exist");
+			else
+				System.out.println("\nERROR: Iron Dome is currently Intercepting other Missile");
 			System.out.println("Enter IronDome ID to Intercept Missile with (one word) or # to cancel:");
 			irondID = in.next();
 			if (irondID.compareTo("#") == 0)

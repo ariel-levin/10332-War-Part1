@@ -1,201 +1,241 @@
-05/09/2014 02:32:43 (0) >       Launcher L101 created and cannot be hidden
-05/09/2014 02:32:43 (0) >       Launcher L101 >> Missile M1 created
+07/09/2014 16:43:05 (0) >       Launcher L101 created and cannot be hidden
+07/09/2014 16:43:05 (0) >       Launcher L101 >> Missile M1 created
                                 >> Destination: Sderot , Launch Time: 2 , Estimated Land Time: 14
-05/09/2014 02:32:43 (0) >       Launcher L101 >> Missile M2 created
+07/09/2014 16:43:05 (0) >       Launcher L101 >> Missile M2 created
                                 >> Destination: Beer-Sheva , Launch Time: 5 , Estimated Land Time: 12
-05/09/2014 02:32:43 (0) >       Launcher L102 created and can be hidden
-05/09/2014 02:32:43 (0) >       Launcher L102 >> Missile M3 created
+07/09/2014 16:43:05 (0) >       Launcher L102 created and can be hidden
+07/09/2014 16:43:05 (0) >       Launcher L102 >> Missile M3 created
                                 >> Destination: Ofakim , Launch Time: 4 , Estimated Land Time: 7
-05/09/2014 02:32:43 (0) >       Launcher L102 >> Missile M4 created
+07/09/2014 16:43:05 (0) >       Launcher L102 >> Missile M4 created
                                 >> Destination: Beer-Sheva , Launch Time: 9 , Estimated Land Time: 16
-05/09/2014 02:32:43 (0) >       IronDome D201 created
-05/09/2014 02:32:43 (0) >       IronDome D201 >> Target: Missile M1 , Interception time: 4
-05/09/2014 02:32:43 (0) >       IronDome D201 >> Target: Missile M3 , Interception time: 7
-05/09/2014 02:32:43 (0) >       IronDome D201 >> Target: Missile M4 , Interception time: 2
-05/09/2014 02:32:43 (0) >       IronDome D202 created
-05/09/2014 02:32:43 (0) >       IronDome D202 >> Target: Missile M2 , Interception time: 3
-05/09/2014 02:32:43 (0) >       LauncherDestroyer 1 : plane created
-05/09/2014 02:32:43 (0) >       LauncherDestroyer 1 : plane >> Target: Launcher L101 , Destroy time: 4
-05/09/2014 02:32:43 (0) >       LauncherDestroyer 2 : ship created
-05/09/2014 02:32:43 (0) >       LauncherDestroyer 2 : ship >> Target: Launcher L102 , Destroy time: 8
-05/09/2014 02:32:43 (0) >       LauncherDestroyer 2 : ship >> Target: Launcher L102 , Destroy time: 12
-05/09/2014 02:32:51 (2) >       Launcher L101 >> Trying to launch Missile M1
-05/09/2014 02:32:51 (2) >       Launcher L101 >> Missile M1 launched!
-05/09/2014 02:32:51 (2) >       IronDome D201 >> Trying to intercept Missile M4
-05/09/2014 02:32:51 (2) >       IronDome D201 >> Missile M4 interception failed, Missile may not be On-Air
-05/09/2014 02:32:52 (3) >       IronDome D202 >> Trying to intercept Missile M2
-05/09/2014 02:32:52 (3) >       IronDome D202 >> Missile M2 interception failed, Missile may not be On-Air
-05/09/2014 02:32:53 (4) >       Launcher L102 >> Trying to launch Missile M3
-05/09/2014 02:32:53 (4) >       LauncherDestroyer 1 : plane >> Trying to destroy Launcher L101
-05/09/2014 02:32:53 (4) >       Launcher L102 >> Missile M3 launched!
-05/09/2014 02:32:53 (4) >       IronDome D201 >> Trying to intercept Missile M1
-05/09/2014 02:32:53 (4) >       Launcher L101 >> Missile M2 was destroyed because of Launcher Destruction
-05/09/2014 02:32:53 (4) >       Launcher L102 is now not hidden and exposed for attacks 
-                                >> Exposed while Missile M3 On-Air: (3) time units
-05/09/2014 02:32:53 (4) >       IronDome D201 >> Missile M1 was intercepted successfully
-05/09/2014 02:32:53 (4) >       Launcher L101 was destroyed!
+07/09/2014 16:43:05 (0) >       IronDome D201 created
+07/09/2014 16:43:05 (0) >       IronDome D201 >> Target: Missile M1 , Interception time: 4
+07/09/2014 16:43:05 (0) >       IronDome D201 >> Target: Missile M3 , Interception time: 7
+07/09/2014 16:43:05 (0) >       IronDome D201 >> Target: Missile M4 , Interception time: 2
+07/09/2014 16:43:05 (0) >       IronDome D202 created
+07/09/2014 16:43:05 (0) >       IronDome D202 >> Target: Missile M2 , Interception time: 3
+07/09/2014 16:43:05 (0) >       LauncherDestroyer 1 : plane created
+07/09/2014 16:43:05 (0) >       LauncherDestroyer 1 : plane >> Target: Launcher L101 , Destroy time: 4
+07/09/2014 16:43:05 (0) >       LauncherDestroyer 2 : ship created
+07/09/2014 16:43:05 (0) >       LauncherDestroyer 2 : ship >> Target: Launcher L102 , Destroy time: 8
+07/09/2014 16:43:05 (0) >       LauncherDestroyer 2 : ship >> Target: Launcher L102 , Destroy time: 12
+07/09/2014 16:43:10 (0) >       LauncherDestroyer 3 : spaceship created
+07/09/2014 16:43:19 (0) >       LauncherDestroyer 4 : pirate ship created
+07/09/2014 16:43:25 (0) >       LauncherDestroyer 4 : pirate ship >> Target: Launcher L101 , Destroy time: 15
+07/09/2014 16:43:32 (0) >       Launcher L102 >> Missile M7 created
+                                >> Destination: gaza , Launch Time: 15 , Estimated Land Time: 20
+07/09/2014 16:43:36 (0) >       Launcher L103 created and can be hidden
+07/09/2014 16:43:40 (0) >       Launcher L104 created and can be hidden
+07/09/2014 16:43:50 (0) >       Launcher L104 >> Missile M5 created
+                                >> Destination: gaza , Launch Time: 20 , Estimated Land Time: 27
+07/09/2014 16:43:53 (0) >       IronDome D101 created
+07/09/2014 16:43:56 (0) >       IronDome D203 created
+07/09/2014 16:44:00 (0) >       IronDome D203 >> Target: Missile M4 , Interception time: 30
+07/09/2014 16:44:03 (0) >       IronDome D203 >> Target: Missile M7 , Interception time: 21
+07/09/2014 16:44:12 (2) >       IronDome D201 >> Trying to intercept Missile M4
+07/09/2014 16:44:12 (2) >       Launcher L101 >> Trying to launch Missile M1
+07/09/2014 16:44:12 (2) >       IronDome D201 >> Missile M4 interception failed, Missile may not be On-Air
+07/09/2014 16:44:12 (2) >       Launcher L101 >> Missile M1 launched!
+07/09/2014 16:44:13 (3) >       IronDome D202 >> Trying to intercept Missile M2
+07/09/2014 16:44:13 (3) >       IronDome D202 >> Missile M2 interception failed, Missile may not be On-Air
+07/09/2014 16:44:14 (4) >       LauncherDestroyer 1 : plane >> Trying to destroy Launcher L101
+07/09/2014 16:44:14 (4) >       Launcher L102 >> Trying to launch Missile M3
+07/09/2014 16:44:14 (4) >       Launcher L101 >> Missile M2 was destroyed because of Launcher Destruction
+07/09/2014 16:44:14 (4) >       Launcher L102 >> Missile M3 launched!
+07/09/2014 16:44:14 (4) >       Launcher L101 was destroyed!
                                 >> Destruction time: 4
-05/09/2014 02:32:53 (4) >       LauncherDestroyer 1 : plane >> Launcher L101 was destroyed successfully
-05/09/2014 02:32:53 (4) >       Launcher L101 >> Missile M1 was Intercepted!
+07/09/2014 16:44:14 (4) >       IronDome D201 >> Trying to intercept Missile M1
+07/09/2014 16:44:14 (4) >       LauncherDestroyer 1 : plane >> Launcher L101 was destroyed successfully
+07/09/2014 16:44:14 (4) >       Launcher L102 is now not hidden and exposed for attacks 
+                                >> Exposed while Missile M3 On-Air: (3) time units
+07/09/2014 16:44:14 (4) >       IronDome D201 >> Missile M1 was intercepted successfully
+07/09/2014 16:44:14 (4) >       Launcher L101 >> Missile M1 was Intercepted!
                                 >> Interception time: 4
-05/09/2014 02:32:56 (7) >       Launcher L102 >> Missile M3 Successfully hit Ofakim!
+07/09/2014 16:44:17 (7) >       Launcher L102 >> Missile M3 Successfully hit Ofakim!
                                 >> Total damage: 5000
-05/09/2014 02:32:56 (7) >       Launcher L102 is now hidden and safe
-05/09/2014 02:32:56 (7) >       IronDome D201 >> Trying to intercept Missile M3
-05/09/2014 02:32:56 (7) >       IronDome D201 >> Missile M3 interception failed, Missile may not be On-Air
-05/09/2014 02:32:57 (8) >       LauncherDestroyer 2 : ship >> Trying to destroy Launcher L102
-05/09/2014 02:32:57 (8) >       LauncherDestroyer 2 : ship >> Launcher L102 destruction failed - hidden or already destroyed
-05/09/2014 02:32:58 (9) >       Launcher L102 >> Trying to launch Missile M4
-05/09/2014 02:32:58 (9) >       Launcher L102 >> Missile M4 launched!
-05/09/2014 02:32:58 (9) >       Launcher L102 is now not hidden and exposed for attacks 
+07/09/2014 16:44:17 (7) >       Launcher L102 is now hidden and safe
+07/09/2014 16:44:17 (7) >       IronDome D201 >> Trying to intercept Missile M3
+07/09/2014 16:44:17 (7) >       IronDome D201 >> Missile M3 interception failed, Missile may not be On-Air
+07/09/2014 16:44:18 (8) >       LauncherDestroyer 2 : ship >> Trying to destroy Launcher L102
+07/09/2014 16:44:18 (8) >       LauncherDestroyer 2 : ship >> Launcher L102 destruction failed 
+                                >> Hidden or already Destroyed
+07/09/2014 16:44:19 (9) >       Launcher L102 >> Trying to launch Missile M4
+07/09/2014 16:44:19 (9) >       Launcher L102 >> Missile M4 launched!
+07/09/2014 16:44:19 (9) >       Launcher L102 is now not hidden and exposed for attacks 
                                 >> Exposed while Missile M4 On-Air: (7) time units
-05/09/2014 02:33:01 (12) >      LauncherDestroyer 2 : ship >> Trying to destroy Launcher L102
-05/09/2014 02:33:01 (12) >      Launcher L102 was destroyed!
+07/09/2014 16:44:21 (11) >      LauncherDestroyer 5 : yoyo created
+07/09/2014 16:44:22 (12) >      LauncherDestroyer 2 : ship >> Trying to destroy Launcher L102
+07/09/2014 16:44:22 (12) >      Launcher L102 >> Missile M7 was destroyed because of Launcher Destruction
+07/09/2014 16:44:22 (12) >      Launcher L102 was destroyed!
                                 >> Destruction time: 12
-05/09/2014 02:33:01 (12) >      LauncherDestroyer 2 : ship >> Launcher L102 was destroyed successfully
-05/09/2014 02:33:04 (15) >      Launcher L900 created and cannot be hidden
-05/09/2014 02:33:05 (16) >      Launcher L102 >> Missile M4 Successfully hit Beer-Sheva!
+07/09/2014 16:44:22 (12) >      LauncherDestroyer 2 : ship >> Launcher L102 was destroyed successfully
+07/09/2014 16:44:25 (15) >      LauncherDestroyer 4 : pirate ship >> Trying to destroy Launcher L101
+07/09/2014 16:44:25 (15) >      LauncherDestroyer 4 : pirate ship >> Launcher L101 destruction failed 
+                                >> Hidden or already Destroyed
+07/09/2014 16:44:26 (16) >      Launcher L102 >> Missile M4 Successfully hit Beer-Sheva!
                                 >> Total damage: 1000
-05/09/2014 02:33:08 (19) >      Launcher L400 created and can be hidden
-05/09/2014 02:33:20 (31) >      Launcher L400 >> Missile M703 created
-                                >> Destination: gasd , Launch Time: 31 , Estimated Land Time: 81
-05/09/2014 02:33:21 (32) >      Launcher L400 >> Trying to launch Missile M703
-05/09/2014 02:33:21 (32) >      Launcher L400 >> Missile M703 launched!
-05/09/2014 02:33:21 (32) >      Launcher L400 is now not hidden and exposed for attacks 
-                                >> Exposed while Missile M703 On-Air: (50) time units
-05/09/2014 02:33:30 (41) >      Launcher L400 >> Missile M872 created
-                                >> Destination: dsfsd , Launch Time: 41 , Estimated Land Time: 46
-05/09/2014 02:33:44 (56) >      Launcher L900 >> Missile M343 created
-                                >> Destination: yoyo , Launch Time: 56 , Estimated Land Time: 176
-05/09/2014 02:33:45 (57) >      Launcher L900 >> Trying to launch Missile M343
-05/09/2014 02:33:45 (57) >      Launcher L900 >> Missile M343 launched!
-05/09/2014 02:33:51 (63) >      IronDome D202 >> Target: Missile M343 , Interception time: 63
-05/09/2014 02:33:52 (64) >      IronDome D202 >> Trying to intercept Missile M343
-                                >> Interception duration time: (5) time units
-05/09/2014 02:33:57 (68) >      IronDome D201 >> Target: Missile M703 , Interception time: 68
-05/09/2014 02:33:57 (69) >      IronDome D202 >> Missile M343 was intercepted successfully
-05/09/2014 02:33:57 (69) >      Launcher L900 >> Missile M343 was Intercepted!
-                                >> Interception time: 69
-05/09/2014 02:33:58 (69) >      IronDome D201 >> Trying to intercept Missile M703
-                                >> Interception duration time: (8) time units
-05/09/2014 02:34:04 (76) >      IronDome D202 >> Target: Missile M703 , Interception time: 76
-05/09/2014 02:34:05 (77) >      IronDome D202 >> Trying to intercept Missile M703
-                                >> Interception duration time: (9) time units
-05/09/2014 02:34:06 (77) >      IronDome D201 >> Missile M703 was intercepted successfully
-05/09/2014 02:34:06 (77) >      Launcher L400 >> Missile M703 was Intercepted!
-                                >> Interception time: 77
-05/09/2014 02:34:06 (77) >      Launcher L400 is now hidden and safe
-05/09/2014 02:34:07 (78) >      Launcher L400 >> Trying to launch Missile M872
-05/09/2014 02:34:07 (78) >      Launcher L400 >> Missile M872 launched!
-05/09/2014 02:34:07 (78) >      Launcher L400 is now not hidden and exposed for attacks 
-                                >> Exposed while Missile M872 On-Air: (5) time units
-05/09/2014 02:34:12 (83) >      Launcher L400 >> Missile M872 Successfully hit dsfsd!
-                                >> Total damage: 21124
-05/09/2014 02:34:12 (83) >      Launcher L400 is now hidden and safe
-05/09/2014 02:34:14 (86) >      IronDome D202 >> Missile M703 interception failed - Missed Missile
-05/09/2014 02:34:36 (107) >     Launcher L900 >> Missile M632 created
-                                >> Destination: aaa , Launch Time: 107 , Estimated Land Time: 157
-05/09/2014 02:34:37 (108) >     Launcher L900 >> Trying to launch Missile M632
-05/09/2014 02:34:37 (108) >     Launcher L900 >> Missile M632 launched!
-05/09/2014 02:34:44 (116) >     LauncherDestroyer 1 : plane >> Target: Launcher L900 , Destroy time: 116
-05/09/2014 02:34:45 (117) >     LauncherDestroyer 1 : plane >> Trying to destroy Launcher L900
+07/09/2014 16:44:30 (20) >      Launcher L104 >> Trying to launch Missile M5
+07/09/2014 16:44:30 (20) >      Launcher L104 >> Missile M5 launched!
+07/09/2014 16:44:30 (20) >      Launcher L104 is now not hidden and exposed for attacks 
+                                >> Exposed while Missile M5 On-Air: (7) time units
+07/09/2014 16:44:31 (21) >      IronDome D203 >> Trying to intercept Missile M7
+07/09/2014 16:44:31 (21) >      IronDome D203 >> Missile M7 interception failed, Missile may not be On-Air
+07/09/2014 16:44:37 (27) >      Launcher L104 >> Missile M5 Successfully hit gaza!
+                                >> Total damage: 1500
+07/09/2014 16:44:37 (27) >      Launcher L104 is now hidden and safe
+07/09/2014 16:44:40 (30) >      LauncherDestroyer 5 : yoyo >> Target: Launcher L104 , Destroy time: 30
+07/09/2014 16:44:40 (30) >      IronDome D203 >> Trying to intercept Missile M4
+07/09/2014 16:44:40 (30) >      IronDome D203 >> Missile M4 interception failed, Missile may not be On-Air
+07/09/2014 16:44:41 (31) >      LauncherDestroyer 5 : yoyo >> Trying to destroy Launcher L104
                                 >> Destruction duration time: (6) time units
-05/09/2014 02:34:49 (120) >     LauncherDestroyer 2 : ship >> Target: Launcher L400 , Destroy time: 120
-05/09/2014 02:34:50 (121) >     LauncherDestroyer 2 : ship >> Trying to destroy Launcher L400
+07/09/2014 16:44:46 (36) >      LauncherDestroyer 4 : pirate ship >> Target: Launcher L103 , Destroy time: 36
+07/09/2014 16:44:47 (37) >      LauncherDestroyer 4 : pirate ship >> Trying to destroy Launcher L103
+                                >> Destruction duration time: (8) time units
+07/09/2014 16:44:47 (37) >      LauncherDestroyer 5 : yoyo >> Launcher L104 destruction failed 
+                                >> Hidden or already Destroyed
+07/09/2014 16:44:53 (43) >      Launcher L104 >> Missile M738 created
+                                >> Destination: mordor , Launch Time: 43 , Estimated Land Time: 83
+07/09/2014 16:44:54 (44) >      Launcher L104 >> Trying to launch Missile M738
+07/09/2014 16:44:54 (44) >      Launcher L104 >> Missile M738 launched!
+07/09/2014 16:44:54 (44) >      Launcher L104 is now not hidden and exposed for attacks 
+                                >> Exposed while Missile M738 On-Air: (40) time units
+07/09/2014 16:44:55 (45) >      LauncherDestroyer 4 : pirate ship >> Launcher L103 destruction failed 
+                                >> Hidden or already Destroyed
+07/09/2014 16:44:56 (46) >      LauncherDestroyer 3 : spaceship >> Target: Launcher L104 , Destroy time: 46
+07/09/2014 16:44:57 (47) >      LauncherDestroyer 3 : spaceship >> Trying to destroy Launcher L104
+                                >> Destruction duration time: (8) time units
+07/09/2014 16:44:59 (49) >      IronDome D800 created
+07/09/2014 16:45:05 (55) >      LauncherDestroyer 3 : spaceship >> Launcher L104 destruction failed 
+                                >> Missed Launcher
+07/09/2014 16:45:11 (61) >      Launcher L103 >> Missile M270 created
+                                >> Destination: gaza , Launch Time: 61 , Estimated Land Time: 121
+07/09/2014 16:45:12 (62) >      Launcher L103 >> Trying to launch Missile M270
+07/09/2014 16:45:12 (62) >      Launcher L103 >> Missile M270 launched!
+07/09/2014 16:45:12 (62) >      Launcher L103 is now not hidden and exposed for attacks 
+                                >> Exposed while Missile M270 On-Air: (60) time units
+07/09/2014 16:45:21 (71) >      IronDome D201 >> Target: Missile M738 , Interception time: 71
+07/09/2014 16:45:22 (72) >      IronDome D201 >> Trying to intercept Missile M738
+                                >> Interception duration time: (9) time units
+07/09/2014 16:45:28 (78) >      Launcher L105 created and can be hidden
+07/09/2014 16:45:31 (81) >      IronDome D201 >> Missile M738 was intercepted successfully
+07/09/2014 16:45:31 (81) >      Launcher L104 >> Missile M738 was Intercepted!
+                                >> Interception time: 81
+07/09/2014 16:45:31 (81) >      Launcher L104 is now hidden and safe
+07/09/2014 16:45:36 (85) >      Launcher L900 created and can be hidden
+07/09/2014 16:45:54 (104) >     Launcher L900 >> Missile M397 created
+                                >> Destination: aaa , Launch Time: 104 , Estimated Land Time: 1104
+07/09/2014 16:45:55 (105) >     Launcher L900 >> Trying to launch Missile M397
+07/09/2014 16:45:55 (105) >     Launcher L900 >> Missile M397 launched!
+07/09/2014 16:45:55 (105) >     Launcher L900 is now not hidden and exposed for attacks 
+                                >> Exposed while Missile M397 On-Air: (1000) time units
+07/09/2014 16:46:08 (118) >     LauncherDestroyer 5 : yoyo >> Target: Launcher L900 , Destroy time: 118
+07/09/2014 16:46:09 (119) >     LauncherDestroyer 5 : yoyo >> Trying to destroy Launcher L900
                                 >> Destruction duration time: (9) time units
-05/09/2014 02:34:51 (123) >     Launcher L900 was destroyed!
-                                >> Destruction time: 123
-05/09/2014 02:34:51 (123) >     LauncherDestroyer 1 : plane >> Launcher L900 was destroyed successfully
-05/09/2014 02:34:53 (125) >     LauncherDestroyer 1 : plane >> Target: Launcher L400 , Destroy time: 125
-05/09/2014 02:34:54 (126) >     LauncherDestroyer 1 : plane >> Trying to destroy Launcher L400
-                                >> Destruction duration time: (5) time units
-05/09/2014 02:34:59 (130) >     LauncherDestroyer 2 : ship >> Launcher L400 destruction failed - Missed Launcher
-05/09/2014 02:34:59 (131) >     LauncherDestroyer 1 : plane >> Launcher L400 destruction failed - Missed Launcher
-05/09/2014 02:34:59 (131) >     LauncherDestroyer 1 : plane >> Target: Launcher L400 , Destroy time: 128
-05/09/2014 02:35:00 (132) >     LauncherDestroyer 1 : plane >> Trying to destroy Launcher L400
-                                >> Destruction duration time: (4) time units
-05/09/2014 02:35:04 (136) >     LauncherDestroyer 1 : plane >> Launcher L400 destruction failed - hidden or already destroyed
-05/09/2014 02:35:05 (137) >     LauncherDestroyer 1 : plane >> Target: Launcher L400 , Destroy time: 137
-05/09/2014 02:35:05 (137) >     LauncherDestroyer 1 : plane >> Trying to destroy Launcher L400
-                                >> Destruction duration time: (7) time units
-05/09/2014 02:35:12 (144) >     LauncherDestroyer 1 : plane >> Launcher L400 destruction failed - hidden or already destroyed
-05/09/2014 02:35:27 (158) >     Launcher L900 >> Missile M632 Successfully hit aaa!
-                                >> Total damage: 1000
-05/09/2014 02:35:27 (158) >     Launcher L400 >> Missile M823 created
-                                >> Destination: bbb , Launch Time: 158 , Estimated Land Time: 218
-05/09/2014 02:35:28 (159) >     Launcher L400 >> Trying to launch Missile M823
-05/09/2014 02:35:28 (159) >     Launcher L400 >> Missile M823 launched!
-05/09/2014 02:35:28 (159) >     Launcher L400 is now not hidden and exposed for attacks 
-                                >> Exposed while Missile M823 On-Air: (60) time units
-05/09/2014 02:35:31 (162) >     LauncherDestroyer 1 : plane >> Target: Launcher L400 , Destroy time: 162
-05/09/2014 02:35:32 (163) >     LauncherDestroyer 1 : plane >> Trying to destroy Launcher L400
-                                >> Destruction duration time: (3) time units
-05/09/2014 02:35:35 (166) >     Launcher L400 was destroyed!
-                                >> Destruction time: 166
-05/09/2014 02:35:35 (166) >     LauncherDestroyer 1 : plane >> Launcher L400 was destroyed successfully
-05/09/2014 02:36:04 (195) >     Launcher L500 created and can be hidden
-05/09/2014 02:36:15 (206) >     Launcher L500 >> Missile M831 created
-                                >> Destination: ccc , Launch Time: 206 , Estimated Land Time: 266
-05/09/2014 02:36:16 (207) >     Launcher L500 >> Trying to launch Missile M831
-05/09/2014 02:36:16 (207) >     Launcher L500 >> Missile M831 launched!
-05/09/2014 02:36:16 (207) >     Launcher L500 is now not hidden and exposed for attacks 
-                                >> Exposed while Missile M831 On-Air: (60) time units
-05/09/2014 02:36:25 (216) >     Launcher L500 >> Missile M37 created
-                                >> Destination: ddd , Launch Time: 216 , Estimated Land Time: 296
-05/09/2014 02:36:28 (219) >     Launcher L400 >> Missile M823 Missed destination bbb!
-05/09/2014 02:36:32 (224) >     IronDome D202 >> Target: Missile M831 , Interception time: 224
-05/09/2014 02:36:33 (225) >     IronDome D202 >> Trying to intercept Missile M831
-                                >> Interception duration time: (10) time units
-05/09/2014 02:36:40 (231) >     IronDome D201 >> Target: Missile M831 , Interception time: 231
-05/09/2014 02:36:41 (232) >     IronDome D201 >> Trying to intercept Missile M831
-                                >> Interception duration time: (3) time units
-05/09/2014 02:36:43 (235) >     IronDome D202 >> Missile M831 was intercepted successfully
-05/09/2014 02:36:43 (235) >     Launcher L500 >> Missile M831 was Intercepted!
-                                >> Interception time: 235
-05/09/2014 02:36:43 (235) >     Launcher L500 is now hidden and safe
-05/09/2014 02:36:44 (235) >     IronDome D201 >> Missile M831 interception failed - Missile may not be On-Air
-05/09/2014 02:36:44 (236) >     Launcher L500 >> Trying to launch Missile M37
-05/09/2014 02:36:44 (236) >     Launcher L500 >> Missile M37 launched!
-05/09/2014 02:36:44 (236) >     Launcher L500 is now not hidden and exposed for attacks 
-                                >> Exposed while Missile M37 On-Air: (80) time units
-05/09/2014 02:37:09 (260) >     IronDome D202 >> Target: Missile M37 , Interception time: 260
-05/09/2014 02:37:10 (261) >     IronDome D202 >> Trying to intercept Missile M37
-                                >> Interception duration time: (5) time units
-05/09/2014 02:37:15 (266) >     IronDome D201 >> Target: Missile M37 , Interception time: 266
-05/09/2014 02:37:15 (266) >     IronDome D202 >> Missile M37 interception failed - Missed Missile
-05/09/2014 02:37:16 (267) >     IronDome D201 >> Trying to intercept Missile M37
+07/09/2014 16:46:12 (121) >     Launcher L103 >> Missile M270 Successfully hit gaza!
+                                >> Total damage: 10000
+07/09/2014 16:46:12 (121) >     Launcher L103 is now hidden and safe
+07/09/2014 16:46:18 (128) >     Launcher L900 was destroyed!
+                                >> Destruction time: 128
+07/09/2014 16:46:18 (128) >     LauncherDestroyer 5 : yoyo >> Launcher L900 was destroyed successfully
+07/09/2014 16:46:30 (140) >     IronDome D201 >> Target: Missile M397 , Interception time: 140
+07/09/2014 16:46:31 (141) >     IronDome D201 >> Trying to intercept Missile M397
                                 >> Interception duration time: (9) time units
-05/09/2014 02:37:25 (276) >     IronDome D201 >> Missile M37 was intercepted successfully
-05/09/2014 02:37:25 (276) >     Launcher L500 >> Missile M37 was Intercepted!
-                                >> Interception time: 276
-05/09/2014 02:37:25 (276) >     Launcher L500 is now hidden and safe
-05/09/2014 02:38:23 (334) >     LauncherDestroyer 2 : ship >> Target: Launcher L500 , Destroy time: 334
-05/09/2014 02:38:24 (335) >     LauncherDestroyer 2 : ship >> Trying to destroy Launcher L500
+07/09/2014 16:46:40 (150) >     IronDome D201 >> Missile M397 was intercepted successfully
+07/09/2014 16:46:40 (150) >     Launcher L900 >> Missile M397 was Intercepted!
+                                >> Interception time: 150
+07/09/2014 16:47:24 (194) >     Launcher L105 >> Missile M40 created
+                                >> Destination: bbb , Launch Time: 194 , Estimated Land Time: 554
+07/09/2014 16:47:25 (195) >     Launcher L105 >> Trying to launch Missile M40
+07/09/2014 16:47:25 (195) >     Launcher L105 >> Missile M40 launched!
+07/09/2014 16:47:25 (195) >     Launcher L105 is now not hidden and exposed for attacks 
+                                >> Exposed while Missile M40 On-Air: (360) time units
+07/09/2014 16:47:33 (202) >     LauncherDestroyer 5 : yoyo >> Target: Launcher L105 , Destroy time: 202
+07/09/2014 16:47:34 (203) >     LauncherDestroyer 5 : yoyo >> Trying to destroy Launcher L105
+                                >> Destruction duration time: (7) time units
+07/09/2014 16:47:41 (210) >     Launcher L105 was destroyed!
+                                >> Destruction time: 210
+07/09/2014 16:47:41 (210) >     LauncherDestroyer 5 : yoyo >> Launcher L105 was destroyed successfully
+07/09/2014 16:47:41 (210) >     LauncherDestroyer 5 : yoyo >> Target: Launcher L104 , Destroy time: 205
+07/09/2014 16:47:42 (211) >     LauncherDestroyer 5 : yoyo >> Trying to destroy Launcher L104
+                                >> Destruction duration time: (9) time units
+07/09/2014 16:47:51 (220) >     LauncherDestroyer 5 : yoyo >> Launcher L104 destruction failed 
+                                >> Hidden or already Destroyed
+07/09/2014 16:48:00 (229) >     IronDome D800 >> Target: Missile M40 , Interception time: 229
+07/09/2014 16:48:01 (230) >     IronDome D800 >> Trying to intercept Missile M40
+                                >> Interception duration time: (6) time units
+07/09/2014 16:48:07 (236) >     IronDome D800 >> Missile M40 was intercepted successfully
+07/09/2014 16:48:07 (236) >     Launcher L105 >> Missile M40 was Intercepted!
+                                >> Interception time: 236
+07/09/2014 16:48:21 (250) >     Launcher L901 created and can be hidden
+07/09/2014 16:48:31 (260) >     Launcher L901 >> Missile M465 created
+                                >> Destination: ccc , Launch Time: 260 , Estimated Land Time: 380
+07/09/2014 16:48:32 (261) >     Launcher L901 >> Trying to launch Missile M465
+07/09/2014 16:48:32 (261) >     Launcher L901 >> Missile M465 launched!
+07/09/2014 16:48:32 (261) >     Launcher L901 is now not hidden and exposed for attacks 
+                                >> Exposed while Missile M465 On-Air: (120) time units
+07/09/2014 16:48:42 (271) >     Launcher L901 >> Missile M152 created
+                                >> Destination: abc , Launch Time: 271 , Estimated Land Time: 401
+07/09/2014 16:48:59 (289) >     Launcher L901 >> Missile M132 created
+                                >> Destination: ubi , Launch Time: 289 , Estimated Land Time: 589
+07/09/2014 16:49:03 (293) >     LauncherDestroyer 4 : pirate ship >> Target: Launcher L901 , Destroy time: 293
+07/09/2014 16:49:04 (294) >     LauncherDestroyer 4 : pirate ship >> Trying to destroy Launcher L901
                                 >> Destruction duration time: (5) time units
-05/09/2014 02:38:26 (337) >     LauncherDestroyer 1 : plane >> Target: Launcher L500 , Destroy time: 337
-05/09/2014 02:38:27 (338) >     LauncherDestroyer 1 : plane >> Trying to destroy Launcher L500
-                                >> Destruction duration time: (10) time units
-05/09/2014 02:38:29 (340) >     LauncherDestroyer 2 : ship >> Launcher L500 destruction failed - Missed Launcher
-05/09/2014 02:38:30 (341) >     LauncherDestroyer 2 : ship >> Target: Launcher L500 , Destroy time: 341
-05/09/2014 02:38:30 (341) >     LauncherDestroyer 2 : ship >> Trying to destroy Launcher L500
+07/09/2014 16:49:09 (299) >     Launcher L901 >> Missile M152 was destroyed because of Launcher Destruction
+07/09/2014 16:49:09 (299) >     Launcher L901 >> Missile M132 was destroyed because of Launcher Destruction
+07/09/2014 16:49:09 (299) >     Launcher L901 was destroyed!
+                                >> Destruction time: 299
+07/09/2014 16:49:09 (299) >     LauncherDestroyer 4 : pirate ship >> Launcher L901 was destroyed successfully
+07/09/2014 16:49:22 (311) >     IronDome D203 >> Target: Missile M465 , Interception time: 311
+07/09/2014 16:49:23 (312) >     IronDome D203 >> Trying to intercept Missile M465
+                                >> Interception duration time: (3) time units
+07/09/2014 16:49:26 (315) >     IronDome D203 >> Missile M465 interception failed - Missed Missile
+07/09/2014 16:49:42 (332) >     IronDome D101 >> Target: Missile M465 , Interception time: 332
+07/09/2014 16:49:43 (333) >     IronDome D101 >> Trying to intercept Missile M465
+                                >> Interception duration time: (8) time units
+07/09/2014 16:49:51 (341) >     IronDome D101 >> Missile M465 interception failed - Missed Missile
+07/09/2014 16:50:01 (350) >     IronDome D201 >> Target: Missile M465 , Interception time: 350
+07/09/2014 16:50:02 (351) >     IronDome D201 >> Trying to intercept Missile M465
+                                >> Interception duration time: (4) time units
+07/09/2014 16:50:06 (355) >     IronDome D201 >> Missile M465 was intercepted successfully
+07/09/2014 16:50:06 (355) >     Launcher L901 >> Missile M465 was Intercepted!
+                                >> Interception time: 355
+07/09/2014 16:50:20 (370) >     Launcher L902 created and cannot be hidden
+07/09/2014 16:50:31 (380) >     LauncherDestroyer 4 : pirate ship >> Target: Launcher L902 , Destroy time: 380
+07/09/2014 16:50:32 (381) >     LauncherDestroyer 4 : pirate ship >> Trying to destroy Launcher L902
+                                >> Destruction duration time: (7) time units
+07/09/2014 16:50:39 (388) >     LauncherDestroyer 4 : pirate ship >> Launcher L902 destruction failed 
+                                >> Missed Launcher
+07/09/2014 16:50:49 (399) >     LauncherDestroyer 5 : yoyo >> Target: Launcher L902 , Destroy time: 399
+07/09/2014 16:50:50 (400) >     LauncherDestroyer 5 : yoyo >> Trying to destroy Launcher L902
+                                >> Destruction duration time: (7) time units
+07/09/2014 16:50:57 (407) >     Launcher L902 was destroyed!
+                                >> Destruction time: 407
+07/09/2014 16:50:57 (407) >     LauncherDestroyer 5 : yoyo >> Launcher L902 was destroyed successfully
+07/09/2014 16:51:10 (419) >     Launcher L303 created and can be hidden
+07/09/2014 16:51:21 (430) >     Launcher L303 >> Missile M182 created
+                                >> Destination: ggg , Launch Time: 430 , Estimated Land Time: 1030
+07/09/2014 16:51:22 (431) >     Launcher L303 >> Trying to launch Missile M182
+07/09/2014 16:51:22 (431) >     Launcher L303 >> Missile M182 launched!
+07/09/2014 16:51:22 (431) >     Launcher L303 is now not hidden and exposed for attacks 
+                                >> Exposed while Missile M182 On-Air: (600) time units
+07/09/2014 16:51:33 (442) >     LauncherDestroyer 5 : yoyo >> Target: Launcher L303 , Destroy time: 442
+07/09/2014 16:51:34 (443) >     LauncherDestroyer 5 : yoyo >> Trying to destroy Launcher L303
                                 >> Destruction duration time: (3) time units
-05/09/2014 02:38:33 (344) >     LauncherDestroyer 2 : ship >> Launcher L500 destruction failed - hidden or already destroyed
-05/09/2014 02:38:37 (348) >     LauncherDestroyer 1 : plane >> Launcher L500 destruction failed - hidden or already destroyed
-05/09/2014 02:38:40 (351) >     Launcher L500 >> Missile M737 created
-                                >> Destination: ggg , Launch Time: 351 , Estimated Land Time: 366
-05/09/2014 02:38:41 (352) >     Launcher L500 >> Trying to launch Missile M737
-05/09/2014 02:38:41 (352) >     Launcher L500 >> Missile M737 launched!
-05/09/2014 02:38:41 (352) >     Launcher L500 is now not hidden and exposed for attacks 
-                                >> Exposed while Missile M737 On-Air: (15) time units
-05/09/2014 02:38:43 (354) >     LauncherDestroyer 2 : ship >> Target: Launcher L500 , Destroy time: 354
-05/09/2014 02:38:44 (355) >     LauncherDestroyer 2 : ship >> Trying to destroy Launcher L500
-                                >> Destruction duration time: (10) time units
-05/09/2014 02:38:53 (364) >     LauncherDestroyer 1 : plane >> Target: Launcher L500 , Destroy time: 364
-05/09/2014 02:38:54 (365) >     LauncherDestroyer 1 : plane >> Trying to destroy Launcher L500
-                                >> Destruction duration time: (6) time units
-05/09/2014 02:38:54 (365) >     Launcher L500 was destroyed!
-                                >> Destruction time: 365
-05/09/2014 02:38:54 (365) >     LauncherDestroyer 2 : ship >> Launcher L500 was destroyed successfully
-05/09/2014 02:38:56 (367) >     Launcher L500 >> Missile M737 Successfully hit ggg!
-                                >> Total damage: 7000
-05/09/2014 02:39:00 (371) >     LauncherDestroyer 1 : plane >> Launcher L500 destruction failed - Missed Launcher
+07/09/2014 16:51:37 (446) >     LauncherDestroyer 5 : yoyo >> Launcher L303 destruction failed 
+                                >> Missed Launcher
+07/09/2014 16:51:53 (462) >     LauncherDestroyer 4 : pirate ship >> Target: Launcher L104 , Destroy time: 462
+07/09/2014 16:51:54 (463) >     LauncherDestroyer 4 : pirate ship >> Trying to destroy Launcher L104
+                                >> Destruction duration time: (4) time units
+07/09/2014 16:51:58 (467) >     LauncherDestroyer 4 : pirate ship >> Launcher L104 destruction failed 
+                                >> Hidden or already Destroyed
+07/09/2014 16:52:00 (469) >     LauncherDestroyer 5 : yoyo >> Target: Launcher L303 , Destroy time: 469
+07/09/2014 16:52:01 (470) >     LauncherDestroyer 5 : yoyo >> Trying to destroy Launcher L303
+                                >> Destruction duration time: (5) time units
+07/09/2014 16:52:06 (475) >     Launcher L303 was destroyed!
+                                >> Destruction time: 475
+07/09/2014 16:52:06 (475) >     LauncherDestroyer 5 : yoyo >> Launcher L303 was destroyed successfully
+07/09/2014 16:52:06 (475) >     LauncherDestroyer 5 : yoyo >> Target: Launcher L103 , Destroy time: 473
+07/09/2014 16:52:07 (476) >     LauncherDestroyer 5 : yoyo >> Trying to destroy Launcher L103
+                                >> Destruction duration time: (5) time units
+07/09/2014 16:52:12 (481) >     LauncherDestroyer 5 : yoyo >> Launcher L103 destruction failed 
+                                >> Missed Launcher

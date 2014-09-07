@@ -26,7 +26,7 @@ public class Launcher extends Thread {
 	// if the launcher canBeHidden, it will be exposed after launching a missile, while it on-air
 	private boolean isHidden;
 	private boolean alive = false;
-	private boolean waitingForMissiles = false;		// if heap is empty and the launcher waiting for missiles
+	private boolean occupied = false;
 
 	private int missileLaunchCount = 0;
 	private int missileInterceptedCount = 0;
@@ -90,11 +90,9 @@ public class Launcher extends Thread {
 				if (missiles.getSize() > 0)		// if there are missiles in the heap
 					m = missiles.getHead();
 				else {
-					waitingForMissiles = true;
 					synchronized (this) {
 						wait();
 					}
-					waitingForMissiles = false;
 				}
 				
 				if (m != null) {	// if missile was found on the Heap's head
@@ -105,8 +103,9 @@ public class Launcher extends Thread {
 						synchronized (this) {
 							launchMissile(m);
 
-							// Missile in the air, waiting for hit or intercept
-							wait();
+							occupied = true;
+							wait();		// Missile in the air, waiting for hit or intercept
+							occupied = false;
 							
 							missiles.remove();
 						}
@@ -137,6 +136,11 @@ public class Launcher extends Thread {
 	/** Returns if the Launcher is Alive */
 	public boolean alive() {
 		return alive;
+	}
+	
+	/** Returns if the Launcher is already Launching other Missile */
+	public boolean isOccupied() {
+		return occupied;
 	}
 	
 	/** Return all the Missiles Heap */
@@ -195,7 +199,7 @@ public class Launcher extends Thread {
 		missiles.add(m);
 		
 		// notify in case was on wait because of empty heap
-		if (waitingForMissiles)
+		if (!occupied)
 			notify();
 	}
 	
@@ -277,9 +281,8 @@ public class Launcher extends Thread {
 
 			alive = false;
 			launcherDestroyed = true;
-			notify();	// free the launcher if was on wait
 			
-			// let all the Missiles that belongs to the Launcher that it was Destroyed
+			// tell all the Missiles that belongs to the Launcher that it was Destroyed
 			Iterator<Missile> it = missiles.iterator();
 			while (it.hasNext()) {
 				Missile m = it.next();
@@ -293,26 +296,24 @@ public class Launcher extends Thread {
 			logger.log(	Level.INFO, "Launcher " + this.id + " was destroyed!" +
 						LogFormatter.newLine + "Destruction time: " + time, this);
 
+			interrupt();
 			return true;
 		}
 	}
 
 	/** End the Launcher and close the File Handler, used on War class, in endWar() Method */
-	public synchronized void end() {
+	public void end() {
 		
 		alive = false;
 		
-		try {	// surround with try because the thread might already be dead
-			notify();	// notify in case is on wait			
-		} catch (IllegalMonitorStateException e) {}
+		// ending all the missiles
+		Iterator<Missile> it = missiles.iterator();
+		while (it.hasNext())
+			it.next().end();
 		
 		try {	// surround with try because the thread might already be dead
 			interrupt();
 		} catch (SecurityException e) {}
-
-		Iterator<Missile> it = missiles.iterator();
-		while (it.hasNext())
-			it.next().end();
 
 		fh.close();
 	}
@@ -328,4 +329,3 @@ public class Launcher extends Thread {
 	}
 	
 }
-
